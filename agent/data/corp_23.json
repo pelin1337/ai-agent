@@ -1,0 +1,1050 @@
+[
+  {
+    "id": "946e202e-cd11-9c20-8052-8e74236a7269",
+    "name": "Kerry Group",
+    "description": "The most innovative portfolio of Taste & Nutrition technologies and  Ingredients & Actives for the global food, and beverage industries.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ik5x60a7ixfvdbp32p2h",
+    "hq_city": "Tralee",
+    "hq_country": "Ireland",
+    "website_url": "https://www.kerry.com/",
+    "linkedin_url": "https://www.linkedin.com/company/kerry/",
+    "twitter_url": "https://twitter.com/WeAreKerry",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "141852",
+        "company_name": "Fullfact",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1416651432/lnuprxe5ou7xihshlv6k.png",
+        "city": "Lieshout",
+        "website": "oeetoolkit.com",
+        "country": "Netherlands",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "bfd81816-a69b-ff62-7446-0f3bb88bbbe9",
+    "name": "Kinnarps",
+    "description": "Kinnarps is a workspace solutions company.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1496304714/sn0lpld2hnkkp0lrkzh3.png",
+    "hq_city": "Kinnarp",
+    "hq_country": "Sweden",
+    "website_url": "https://global.kinnarps.com",
+    "linkedin_url": "https://www.linkedin.com/company-beta/17421",
+    "twitter_url": "https://twitter.com/kinnarpsgroup",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "114140",
+        "company_name": "Drop By Box",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1449511848/x4zczwyid5hn6hp5wh52.jpg",
+        "city": "Lodz",
+        "website": "dropbybox.com",
+        "country": "Poland",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "1479623d-0489-457b-a002-aa2d593bbbbc",
+    "name": "knauf",
+    "description": "Manufacturing of building materials",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/da/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxOC8wMS8wNS85ZjYzMjJmODdiMzZhNTdhMmRmN2Q0M2YzOWVkNmQ4Nw==.jpg",
+    "hq_city": "Iphofen",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "265903",
+        "company_name": "IntelliShop AG",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/oxfgvus0sc159l6pjaq9",
+        "city": "Karlsruhe",
+        "website": "intellishop-software.com",
+        "country": "Germany",
+        "theme_gd": "MarkTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarkTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "4fed6b87-43d6-b78f-6b91-8a2d8797b3f9",
+    "name": "Krones",
+    "description": "Krones \u2013 we do more.",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/2c/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxOC8xMi8wMS85NmY0NjEzYzMwOTAzOTE1OWZkNjQyODg5ZTZiOWIwNQ==.jpg",
+    "hq_city": "Neutraubling",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "543494",
+        "company_name": "Veronym",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/d8lubtzbekdm19zt9dcu",
+        "city": "Berlin",
+        "website": "veronym.com",
+        "country": "Germany",
+        "theme_gd": "Cybersecurity",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Cybersecurity",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b5a3781d-24d3-d1c6-8199-dfb291eeae8e",
+    "name": "Kuka",
+    "description": "Manufacturer of robotic systems",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/87/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNi8wNy8wOC9kMWM5Y2E4N2MwMmVhMTBmZjg2ODA2NjhhODQwZjZkMQ==.png",
+    "hq_city": "Augsburg",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "193318",
+        "company_name": "Wiferion",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/mg08zjneaers2bdzsfwv",
+        "city": "Freiburg",
+        "website": "wiferion.com",
+        "country": "Germany",
+        "theme_gd": "Industry 4.0",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Industry 4.0",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9528d04f-af88-a9ed-495c-e257a148a44c",
+    "name": "La Redoute",
+    "description": "La Redoute is an e-commerce website that offers clothing and accessories for women, men, and children, home appliances, and more.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1470519229/orq6rrjpcnf48evfxoxc.jpg",
+    "hq_city": "Roubaix",
+    "hq_country": "France",
+    "website_url": "http://www.laredoute-corporate.com",
+    "linkedin_url": "https://www.linkedin.com/company/la-redoute",
+    "twitter_url": "https://twitter.com/laredoutefr",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "586798",
+        "company_name": "TrackAd Group",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/t7nsiiacihyacwxn9ngz",
+        "city": "Paris",
+        "website": "trackad.ai",
+        "country": "France",
+        "theme_gd": "MarTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b584947a-9141-6d60-0017-a10a7a7349e8",
+    "name": "Lamoda",
+    "description": "Lamoda is the largest Russian online store of clothes, shoes, accessories and beauty merchandise; offering express delivery.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397182583/d33ff574fffb8286dd0c1959d46b348e.png",
+    "hq_city": "Moscow",
+    "hq_country": "Russia",
+    "website_url": "http://www.lamoda.ru/",
+    "linkedin_url": "https://www.linkedin.com/company/llc-kupishoes-lamoda-ru/",
+    "twitter_url": "http://twitter.com/lamoda_rus",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "556652",
+        "company_name": "Wide Eyes Technologies",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1507303959/c9ym8ncyshp7f7wpboja.png",
+        "city": "Barcelona",
+        "website": "wide-eyes.it",
+        "country": "Spain",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b1099ee6-1102-03e1-ccd0-3ca63539d9b8",
+    "name": "LANXESS",
+    "description": "LANXESS is a specialty chemicals company.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397760803/821d8d69d7e1837a2e144424c2890c92.png",
+    "hq_city": "Cologne",
+    "hq_country": "Germany",
+    "website_url": "http://lanxess.com/en/corporate/home",
+    "linkedin_url": "https://www.linkedin.com/company/164682",
+    "twitter_url": "http://twitter.com/LANXESS",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "470543",
+        "company_name": "Research Cosmos",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/raxlp3gzwxioznyxi6xt",
+        "city": "New York",
+        "website": "researchcosmos.com",
+        "country": "United States",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "32973f74-b193-fa06-b6e2-d01e318c6556",
+    "name": "Leaseweb",
+    "description": "Leaseweb is a cloud hosting provider offering advanced infrastructure solutions for a global market.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/tqibbtmszzsy5nakjffs",
+    "hq_city": "Amsterdam",
+    "hq_country": "Netherlands",
+    "website_url": "http://www.leaseweb.com",
+    "linkedin_url": "http://www.linkedin.com/company/leaseweb",
+    "twitter_url": "http://twitter.com/LeaseWeb",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "169212",
+        "company_name": "DizzyData",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/gzwvdkszhlji8zh8iczz",
+        "city": "Rotterdam",
+        "website": "dizzydata.nl",
+        "country": "Netherlands",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "6d0f0843-e002-4c43-bd87-541d5037b1b4",
+    "name": "Wix.com",
+    "description": "Wix.com is a free website creation service that has been voted by over 160 million people worldwide.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/cgzanduwgptdiuuifeyh",
+    "hq_city": "Tel Aviv",
+    "hq_country": "Israel",
+    "website_url": "https://ja.wix.com/",
+    "linkedin_url": "https://www.linkedin.com/company/wix-com/",
+    "twitter_url": "https://twitter.com/WixJp",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "783037",
+        "company_name": "Trapica",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/nu9ck1fcarlmty9o90rk",
+        "city": "New York",
+        "website": "trapica.com",
+        "country": "United States",
+        "theme_gd": "MarTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "50ff2c49-213c-9083-ca0d-21bb1ff39838",
+    "name": "LEDVANCE",
+    "description": "A worldwide leader in innovative lighting products as well as intelligent and connected lighting solutions (Smart Home).",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1486791408/vpnu18ulehdnlygtpid6.png",
+    "hq_city": "Munich",
+    "hq_country": "Germany",
+    "website_url": "https://www.ledvance.com",
+    "linkedin_url": "https://www.linkedin.com/company/7931748",
+    "twitter_url": "https://twitter.com/ledvance",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "895403",
+        "company_name": "DataGuard",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/obxaziou081fsmlyneml",
+        "city": "Munich",
+        "website": "dataguard.de",
+        "country": "Germany",
+        "theme_gd": "Security",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Security",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "5e3e7542-b569-4034-95de-9c326875dfc0",
+    "name": "LEG Immobilien",
+    "description": "LEG Immobilien is a real estate company that focuses on the acquisition, sale, and leasing of real estate properties.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/u4finmcjacyclhqqshk0",
+    "hq_city": "D\u00fcsseldorf",
+    "hq_country": "Germany",
+    "website_url": "https://www.leg-wohnen.de/",
+    "linkedin_url": "https://www.linkedin.com/company/leg-immobilien-gruppe/",
+    "twitter_url": "https://twitter.com/legwohnen",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "88139",
+        "company_name": "Empirica Sysems",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/mzbdb0gkroddtzjlihbl",
+        "city": "Berlin",
+        "website": "empirica-systeme.de",
+        "country": "Germany",
+        "theme_gd": "PropTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "PropTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "523a0275-a5d0-22ce-3b1a-af6733864677",
+    "name": "Leroy Merlin",
+    "description": "Leroy Merlin offers products and solutions for DIY, decoration, constr,uction and gardening.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397181290/bf061f538aa412c7cd202ee04c3e712d.png",
+    "hq_city": "Madrid",
+    "hq_country": "Spain",
+    "website_url": "http://www.leroymerlin.es",
+    "linkedin_url": "http://in.linkedin.com/company/leroy-merlin",
+    "twitter_url": "http://twitter.com/Leroymerlin",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "923424",
+        "company_name": "Metigate",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/zujoojohl1jxhzxzr3wi",
+        "city": "Paris",
+        "website": "metigate.com",
+        "country": "France",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "de1212d8-6554-7998-1b06-f156e2154d16",
+    "name": "Lesara",
+    "description": "Lesara is the leading global agile retail pioneer for amazing fashion merchandise at best prices.\r\n\r\nThe company has offices in China and Germany and since its launch in 2013 expanded into 24 markets in 7 languages across Europe, grew its assortment to more than 100.000 SKUs and the the team to over 300 employees.\r\n\r\nLesara is operating a completely vertically integrated supply chain and needs only 2 weeks from idea over design, production to product go-live for its collections.\r\n\r\nThe company was awarded as fastest growing tech-company in Europe in 2016.",
+    "logo_url": "https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1476260066/jtxllaxd728zlznva2pr.png",
+    "hq_city": "Berlin",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "162772",
+        "company_name": "Wunderdata",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397762577/84b22da136bacbfbf35d2a93981d37f4.png",
+        "city": "Berlin-baumschulenweg",
+        "website": "wunderdata.com",
+        "country": "Germany",
+        "theme_gd": "Digitalization",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digitalization",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "27a462f5-13d9-5e6e-3093-5890137f6d3d",
+    "name": "lifebrain",
+    "description": "lifebrain is a holding company based in Austria that makes investments in the laboratory diagnostics sector.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1434988312/ixlmpuifucwkkffchgak.png",
+    "hq_city": "Vienna",
+    "hq_country": "Austria",
+    "website_url": "http://www.lifebrain.at/",
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "143399",
+        "company_name": "lifebrain",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1434988312/ixlmpuifucwkkffchgak.png",
+        "city": "Vienna",
+        "website": "lifebrain.at",
+        "country": "Austria",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "56f47faa-acb4-4dc8-999c-f25e6e23782a",
+    "name": "Linney",
+    "description": "Linney is a marketing agency that specializes in making marketing work & combining traditional market research.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/8b96b2fa853d08d31e70",
+    "hq_city": "Mansfield",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.linney.com/",
+    "linkedin_url": "https://www.linkedin.com/company/linneygroup/",
+    "twitter_url": "https://twitter.com/linney1851",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "585881",
+        "company_name": "Ziflow",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1491293437/igr4gdzfe7eihl2qjrdp.png",
+        "city": "London",
+        "website": "ziflow.com",
+        "country": "United Kingdom",
+        "theme_gd": "MarTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b414da1a-53c6-2c57-1253-24bbbf486821",
+    "name": "Macmillan",
+    "description": "Macmillan Publishers Ltd is one of the largest and best known international publishing groups in the world.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397182740/e9f2119aefc02d4f849756bc2e6a2512.jpg",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "http://macmillan.com",
+    "linkedin_url": "https://www.linkedin.com/company/macmillan",
+    "twitter_url": "https://www.twitter.com/bookbrag",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "922280",
+        "company_name": "ContentKing",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/f25ah06zr5yd8423uroy",
+        "city": "Brno",
+        "website": "contentkingapp.com",
+        "country": "Czech Republic",
+        "theme_gd": "MarTech, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b697d415-0741-b6f2-a349-0c38b1ef08f2",
+    "name": "Marazzi Group",
+    "description": "Marazzi Group is a manufacturer and marketer of ceramic tile.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1495451288/flqful8vp3dumezlenmp.jpg",
+    "hq_city": "Sassuolo",
+    "hq_country": "Italy",
+    "website_url": "https://www.marazzigroup.com/",
+    "linkedin_url": "https://www.linkedin.com/company-beta/59697/",
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "666024",
+        "company_name": "iCatalogue GmbH",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1500192039/ftbfds9s6rggj1lis5jz.png",
+        "city": "Munich",
+        "website": "icatalogue.com",
+        "country": "Germany",
+        "theme_gd": "MarkTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarkTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "239819d8-6f2e-c284-29c1-d7af9bf61aca",
+    "name": "Marley Spoon",
+    "description": "Home delivery of recipes and ingredients to encourage home cooking",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/77/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wNC8xOS9jODg3YTIyMmNmNDk4NTQ2MjZjN2EyNGQ4YmUyZjdmNg==.jpg",
+    "hq_city": "Berlin",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "105806",
+        "company_name": "Back",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/wf58ozys3vaorhxt7xap",
+        "city": "Berlin",
+        "website": "backhq.com",
+        "country": "Germany",
+        "theme_gd": "Digitalization",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digitalization",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "195d837b-922a-bc37-2cf9-1169cee4c554",
+    "name": "materialise",
+    "description": "Bringing great ideas to life",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/ac/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNS8wNS8wNC85YzA3ZGQyNDU2NTEwNGUzZTBkMGI2YmI1MmNmNzk2NQ==.png",
+    "hq_city": "Leuven",
+    "hq_country": "Belgium",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "397765",
+        "company_name": "DyeMansion",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/dm4tx4a5k0jmawwrtdvq",
+        "city": "Munich",
+        "website": "dyemansion.com",
+        "country": "Germany",
+        "theme_gd": "Industry 4.0,CleanTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Industry 4.0",
+        "1"
+      ],
+      [
+        "CleanTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "7339b073-9046-4263-8745-aa6c9c929c99",
+    "name": "Menzis",
+    "description": "Menzis is an Insurance Agency that provides various types of Insurances.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/gvjjbl2hkgu01exkwc2t",
+    "hq_city": "Enschede",
+    "hq_country": "Netherlands",
+    "website_url": "https://www.menzis.nl/",
+    "linkedin_url": "https://www.linkedin.com/company/menzis",
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "42307",
+        "company_name": "Qualizorg",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/opxrxvtc58rbbodd9ijd",
+        "city": "Deventer",
+        "website": "qualizorg.nl",
+        "country": "Netherlands",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "e2831c5a-9c5a-e86d-8986-1140d3289663",
+    "name": "mindmaze",
+    "description": "Builds novel interfaces for neurorehabilitation, game training and 3D imaging in real time",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/3a/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wMy8xNy82M2M1NTliNTU4ZDg3M2EzNGY0N2U1MTkwODE1ZjA0NQ==.png",
+    "hq_city": "Lausanne",
+    "hq_country": "Switzerland",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "376305",
+        "company_name": "Matrix",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/wuc37sv0q9341cz8zris",
+        "city": "Oberkirch",
+        "website": "matrixreq.com",
+        "country": "Germany",
+        "theme_gd": "HealthTech, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "c4bd0c0b-7ae5-66a5-0bd6-a5aa43c49baa",
+    "name": "mister spex",
+    "description": "Top brands of glasses, sunglasses and contact lenses",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/01/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wNC8yNS84ZjFiNTRjZTU2NDdkMTUyNGI0NmIwNzc0ODNjZjIzZA==.jpg",
+    "hq_city": "Berlin",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "315073",
+        "company_name": "MailStore",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1418701746/gnepfjtsw6nyebkaqgc6.jpg",
+        "city": "Viersen",
+        "website": "mailstore.com",
+        "country": "Germany",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "48404f1c-0e06-cc4c-49b3-f97479fa4c0f",
+    "name": "mobile.de",
+    "description": "Online automotive marketplace",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/26/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wNS8xOS9jZjY1MzlhODQ1NTIyMGUxYTM0YTk0NmQyODU0YjU2NA==.png",
+    "hq_city": "Dreilinden",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "428734",
+        "company_name": "autengo",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ooj5hvqgoqexeesphen1",
+        "city": "Frankfurt",
+        "website": "autengo.com",
+        "country": "Germany",
+        "theme_gd": "MarTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "6eba6287-c7f4-249f-4dd4-a514c2a7c128",
+    "name": "Moleskine",
+    "description": "Moleskine develops and sells notebooks, diaries, portfolios, purses, writing materials, reading articles, and many other products.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1477043980/xd1o3zkc91qryinhooft.png",
+    "hq_city": "Milan",
+    "hq_country": "Italy",
+    "website_url": "http://www.moleskine.com",
+    "linkedin_url": "http://www.linkedin.com/company/moleskine",
+    "twitter_url": "http://twitter.com/moleskine",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "538691",
+        "company_name": "Shepper",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/gfappo9xkbweuycojik2",
+        "city": "London",
+        "website": "shepper.com",
+        "country": "United Kingdom",
+        "theme_gd": "MarTech, PropTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ],
+      [
+        "PropTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "74d9fc3b-4075-5994-550b-1d36892f9c96",
+    "name": "montblanc",
+    "description": "Montblanc offers watches, leather, jewelry, eyewear, and fragrance for men and women.",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/b9/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxOC8xMS8zMC85ZDJhYzhiMmI5MzdhMWRlOTMxMzBlYWUwNjUyMzQ3ZQ==.jpg",
+    "hq_city": "Hamburg",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "885646",
+        "company_name": "Digital Luxury Group (DLG)",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397189862/6d6e87287f1a7c8fda82eaa9ba09b217.jpg",
+        "city": "Geneva",
+        "website": "digitalluxurygroup.com",
+        "country": "Switzerland",
+        "theme_gd": "Luxury",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Luxury",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9185a077-c260-ac40-2678-fef9e645591b",
+    "name": "Monzo",
+    "description": "Monzo is a digital-only bank platform and marketplace that allows customers to access a range of products and services.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/y7rztb7pi1ulejw7u4zr",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "https://monzo.com/",
+    "linkedin_url": "https://www.linkedin.com/company/monzo-bank/",
+    "twitter_url": "https://twitter.com/monzo",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "278473",
+        "company_name": "Sustainably",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ciah4pmmorwthvgc89r4",
+        "city": "Edinburgh",
+        "website": "sustainably.co",
+        "country": "United Kingdom",
+        "theme_gd": "Sustainability, Social Good (Economy)",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Sustainability",
+        "1"
+      ],
+      [
+        "Social Good (Economy)",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "113ad06c-5323-0380-71e0-067991b6b0cc",
+    "name": "mymuesli",
+    "description": "mymuesli is a producer and distributor of breakfast cereals.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1420108961/nw5feeg7wzmqwlg6rmbu.png",
+    "hq_city": "Passau",
+    "hq_country": "Germany",
+    "website_url": "http://www.mymuesli.com",
+    "linkedin_url": "https://www.linkedin.com/company/mymuesli/",
+    "twitter_url": "https://twitter.com/mymuesli",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "164297",
+        "company_name": "ecratum",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1430919380/an3cj24j6mzcpzrxvak0.png",
+        "city": "Berlin",
+        "website": "ecratum.com",
+        "country": "Germany",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "d177e3bd-cb20-4dbf-96c5-9c11df887e3b",
+    "name": "Nachi",
+    "description": "Nachi is a mechanical and Industrial engineering company located in Birmingham.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/2c8f7e237ebbe9270463",
+    "hq_city": "Birmingham",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.nachirobotics.eu/",
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "872950",
+        "company_name": "Tend.ai",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/wl3cheup8bx1apaagyyr",
+        "city": "Bend",
+        "website": "tend.ai",
+        "country": "United States",
+        "theme_gd": "Smart Grid, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Smart Grid",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "e623ad8a-860c-55e2-3599-1caf24facf94",
+    "name": "Neue Zurcher Zeitung",
+    "description": "The Neue Z\u00fcrcher Zeitung (NZZ) is a daily newspaper published by the NZZ-Gruppe in Zurich.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1472290713/vgb9hk3et7xnyxx3cfa2.png",
+    "hq_city": "Z\u00fcrich",
+    "hq_country": "Switzerland",
+    "website_url": "http://www.nzz.ch/",
+    "linkedin_url": "https://www.linkedin.com/company/neue-zurcher-zeitung",
+    "twitter_url": "https://www.twitter.com/nzz",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "159010",
+        "company_name": "True Wealth",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/i1fi4q8reijytfid8dqh",
+        "city": "Z\u00fcrich",
+        "website": "truewealth.ch",
+        "country": "Switzerland",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "764df2d7-79e2-c597-50c7-a1ef36e6ea61",
+    "name": "Roland Berger",
+    "description": "Home \u2014 Roland Berger",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/35/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wNi8wOS8yNjExNmQ4N2JhYzU5N2ZiNzRjOGJmOTU2OGU0MzczMA==.jpg",
+    "hq_city": "Munich",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "657567",
+        "company_name": "Spacebase",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1430122149/d0uherriohbbcsy9swrf.png",
+        "city": "Berlin",
+        "website": "spacebase.com",
+        "country": "Germany",
+        "theme_gd": "MarkTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarkTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "cb347070-3b48-988b-2371-1d917647f318",
+    "name": "Norton Rose Fulbright",
+    "description": "Norton Rose Fulbright provide the world\u2019s pre-eminent corporations and financial institutions with a full business law service.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1448333595/z09xwgg3qjblqyr3bsef.png",
+    "hq_city": "Brussels",
+    "hq_country": "Belgium",
+    "website_url": "http://www.nortonrosefulbright.com/in",
+    "linkedin_url": "https://www.linkedin.com/company/nortonrosefulbright/",
+    "twitter_url": "https://www.twitter.com/nlegal_global",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "455239",
+        "company_name": "InfoTrack",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/jzgzuotcw9weidgsv4sl",
+        "city": "Sydney",
+        "website": "infotrack.com.au",
+        "country": "Australia",
+        "theme_gd": "LegalTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "LegalTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  }
+]

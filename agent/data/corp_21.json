@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "78e93b5d-22d1-827d-5a9a-ac400c63a5f2",
+    "name": "Cabify",
+    "description": "Cabify is a ride-sharing company that operates in Latin America, Spain, and Portugal.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1486635055/cr38imqmefbtzqjktwsy.png",
+    "hq_city": "Madrid",
+    "hq_country": "Spain",
+    "website_url": "https://cabify.com/es",
+    "linkedin_url": "http://www.linkedin.com/company/cabify",
+    "twitter_url": "http://twitter.com/cabify",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "921731",
+        "company_name": "Toky",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1427133209/fegjcpyybh6mm7qdpzfu.jpg",
+        "city": "Mexico City",
+        "website": "toky.co",
+        "country": "Mexico",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "048da52f-8d21-b999-a5db-ca95d9b05f32",
+    "name": "Camfil",
+    "description": "The Camfil Group is a world leader in the development and production of air filters and clean air solutions.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1440828388/w8ig3uaxanaknyn78fsb.png",
+    "hq_city": "Stockholm",
+    "hq_country": "Sweden",
+    "website_url": "http://www.camfil.com",
+    "linkedin_url": "https://www.linkedin.com/company/camfil-farr",
+    "twitter_url": "https://www.twitter.com/camfil_brasil",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "1053817",
+        "company_name": "Slagkryssaren Aktiebolag",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/d8vb8kkjzdwfbxgdb8pi",
+        "city": "Stockholm",
+        "website": "slagkryssaren.com",
+        "country": "Sweden",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "7f3a5f57-f40b-2a0e-5ef6-25a355e5c97c",
+    "name": "Carlsberg Group",
+    "description": "Carlsberg produces and sells beer and other beverage products together with its subsidiaries.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1449184205/et271rmnw88p2m68oyw0.png",
+    "hq_city": "Copenhagen",
+    "hq_country": "Denmark",
+    "website_url": "http://www.carlsberggroup.com/",
+    "linkedin_url": "https://www.linkedin.com/company/carlsberg-group/",
+    "twitter_url": "https://www.twitter.com/carlsberggroup",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "505476",
+        "company_name": "Stravito",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/zsc7pgkdexbelsfhdpy3",
+        "city": "Stockholm",
+        "website": "stravito.com",
+        "country": "Sweden",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "e4172e0b-e21d-4367-1d0f-15d8c8434c0e",
+    "name": "Caverion",
+    "description": "Designs, builds, operates & maintains user-friendly and energy-efficient technical solutions for buildings, industries & infrastructure.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1488195796/tz6eclawcm2eb8p2wgra.png",
+    "hq_city": "Malm\u00f6",
+    "hq_country": "Sweden",
+    "website_url": "http://www.caverion.se",
+    "linkedin_url": "https://www.linkedin.com/company-beta/3191932",
+    "twitter_url": "https://twitter.com/CaverionSverige",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "1053766",
+        "company_name": "GAMMA AR",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/nedk7vzvnrolbzfuvdm5",
+        "city": "Luxembourg",
+        "website": "gamma-ar.com",
+        "country": "Luxembourg",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "08f84379-1273-4bee-a829-04a8dbd99716",
+    "name": "PayPal",
+    "description": "PayPal is a financial service company that provides online payment solutions to its users worldwide.",
+    "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1447476896/lcrdrlh1hfa0nbl9ycy3.png",
+    "hq_city": "San Jose",
+    "hq_country": "United States",
+    "website_url": "https://www.paypal.com/home",
+    "linkedin_url": "http://www.linkedin.com/company/paypal",
+    "twitter_url": "https://twitter.com/paypal",
+    "startup_partners_count": 9,
+    "startup_partners": [
+      {
+        "master_startup_id": "2001061",
+        "company_name": "Scale AI",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/dszkvpoieiekjpbbwbyi",
+        "city": "San Francisco",
+        "website": "scale.com",
+        "country": "USA",
+        "theme_gd": "Artificial Intelligence, Machine Learning, SaaS",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2001191",
+        "company_name": "Freedcamp",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1407295879/wrourppmrckmae54ewqs.png",
+        "city": "Santa Barbara",
+        "website": "freedcamp.com",
+        "country": "USA",
+        "theme_gd": "Collaboration, Enterprise Software, Social Media",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2001284",
+        "company_name": "Returnity Innovations",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1498651015/c9ccojdc0ozshjkm5gwq.png",
+        "city": "Brooklyn",
+        "website": "returnity.co",
+        "country": "USA",
+        "theme_gd": "E-Commerce, Logistics",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2001399",
+        "company_name": "Vida Health",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/dtn2ovfetposu5kqrwta",
+        "city": "San Francisco",
+        "website": "vida.com",
+        "country": "USA",
+        "theme_gd": "Health Care",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2002252",
+        "company_name": "mParticle",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/ym5zywdjrdipnlyvvaql",
+        "city": "New York",
+        "website": "mparticle.com",
+        "country": "USA",
+        "theme_gd": "Analytics, Big Data, Data Integration, Enterprise Software",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2002259",
+        "company_name": "H2O.ai",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/xryrsslawzoqwcvm0niv",
+        "city": "Mountain View",
+        "website": "h2o.ai",
+        "country": "USA",
+        "theme_gd": "Analytics, Artificial Intelligence, Machine Learning",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2002261",
+        "company_name": "Acoustic",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/yvsyilbsflby9sppj847",
+        "city": "Burlington",
+        "website": "acoustic.com",
+        "country": "USA",
+        "theme_gd": "Advertising, Digital Marketing, Marketing, SaaS",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2002254",
+        "company_name": "Ocrolus",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/vwdz5iak6poppe3kw8uq",
+        "city": "New York",
+        "website": "ocrolus.com",
+        "country": "USA",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2001795",
+        "company_name": "Airbnb for Work",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/jdq1j15tsiaugbq4ynj0",
+        "city": "Unknown",
+        "website": "airbnbforwork.com",
+        "country": "Unknown",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Artificial Intelligence",
+        "2"
+      ],
+      [
+        "Machine Learning",
+        "2"
+      ],
+      [
+        "SaaS",
+        "2"
+      ],
+      [
+        "Enterprise Software",
+        "2"
+      ],
+      [
+        "Analytics",
+        "2"
+      ],
+      [
+        "Collaboration",
+        "1"
+      ],
+      [
+        "Social Media",
+        "1"
+      ],
+      [
+        "E-Commerce",
+        "1"
+      ],
+      [
+        "Logistics",
+        "1"
+      ],
+      [
+        "Health Care",
+        "1"
+      ],
+      [
+        "Big Data",
+        "1"
+      ],
+      [
+        "Data Integration",
+        "1"
+      ],
+      [
+        "Advertising",
+        "1"
+      ],
+      [
+        "Digital Marketing",
+        "1"
+      ],
+      [
+        "Marketing",
+        "1"
+      ],
+      [
+        "Other",
+        "2"
+      ]
+    ],
+    "startup_friendly_badge": null,
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "af8fd434-e273-4711-9350-0dccdfe58309",
+    "name": "CECONOMY",
+    "description": "CECONOMY AG is the leading European platform for companies, concepts and brands in the field of consumer electronics.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/blopyslhcd06gpmsvrc8",
+    "hq_city": "D\u00fcsseldorf",
+    "hq_country": "Germany",
+    "website_url": "https://www.ceconomy.de",
+    "linkedin_url": "https://www.linkedin.com/company/ceconomy",
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "629046",
+        "company_name": "CECONOMY",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/blopyslhcd06gpmsvrc8",
+        "city": "D\u00fcsseldorf",
+        "website": "ceconomy.de",
+        "country": "Germany",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "69e51f4d-3ea3-8cd6-5ed1-1f0e32ee8c03",
+    "name": "CERTEGO",
+    "description": "CERTEGO is the right partner in the security solution for those who have business in Sweden or across borders in Scandinavia.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1451152060/inqm5cvcngvzim8hf6hb.jpg",
+    "hq_city": "V\u00e4ster\u00e5s",
+    "hq_country": "Sweden",
+    "website_url": "http://www.certego.se/sv/site/certegose/",
+    "linkedin_url": "https://www.linkedin.com/company/1254887",
+    "twitter_url": "https://twitter.com/certegosverige",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "382267",
+        "company_name": "CERTEGO",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1451152060/inqm5cvcngvzim8hf6hb.jpg",
+        "city": "V\u00e4ster\u00e5s",
+        "website": "certego.se",
+        "country": "Sweden",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "6b88c5d7-e0ce-4f74-9898-dcf4c51e4a0f",
+    "name": "Club Med",
+    "description": "Club Med sells vacations and related services, operates villages and cruises, and provides tours and discovery programs.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/tiowqlwt8pnmfx54vp4l",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "http://www.clubmed.com",
+    "linkedin_url": "https://www.linkedin.com/company/163115/",
+    "twitter_url": "https://www.twitter.com/clubmedofficial",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "187711",
+        "company_name": "OneHouseStand",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/vtvphq00zd2gxkkuagnn",
+        "city": "Waterloo",
+        "website": "onehousestand.com",
+        "country": "Belgium",
+        "theme_gd": "New Mobility, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "New Mobility",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9071415e-6187-76c4-3223-662059f461f7",
+    "name": "Coast",
+    "description": "Coast sells high end and upscale clothing and accessories via its website.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1416302920/w1wfwicwpwuy6ywqs7xx.png",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.coast-stores.com",
+    "linkedin_url": "https://www.linkedin.com/company/coast-stores/",
+    "twitter_url": "https://www.twitter.com/coast_stores",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "498127",
+        "company_name": "Clear Returns",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1398460356/dbx8e1dr5pa4cmddqosq.jpg",
+        "city": "Glasgow",
+        "website": "clearreturns.com",
+        "country": "United Kingdom",
+        "theme_gd": "Automation, Smart Supply Chain",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Smart Supply Chain",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "95ba087a-f0e7-d737-e1f1-d8d71962efb5",
+    "name": "concardis",
+    "description": "Cashless payments provider",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/0d/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNS8wOC8wMy82YTg3ZTc5OTAwZTY0NTcxNTJjMDk4NjczOTU0YmMwOQ==.png",
+    "hq_city": "Eschborn",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "586125",
+        "company_name": "Nitrobox",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/datnv6ihtcru96zmqzw8",
+        "city": "Hamburg",
+        "website": "nitrobox.com",
+        "country": "Germany",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "36812e1e-5b67-2c11-58c2-971d0a250d39",
+    "name": "COWI",
+    "description": "COWI is one of Sweden's leading technology consulting firm.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1423734879/i5egxrfuwk0ii8klxvuv.png",
+    "hq_city": "Lyngby",
+    "hq_country": "Denmark",
+    "website_url": "http://www.cowi.se/",
+    "linkedin_url": "https://www.linkedin.com/company/cowi",
+    "twitter_url": "http://twitter.com/cowi",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "637305",
+        "company_name": "Ontame io",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1442477745/frlixu6gdygemwtwac9a.png",
+        "city": "Copenhagen",
+        "website": "ontame.io",
+        "country": "Denmark",
+        "theme_gd": "Future of Work",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Future of Work",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "f9e62185-9a60-41db-9f55-83207cde766e",
+    "name": "creditplus",
+    "description": "Credit Plus delivers the information and services mortgage professionals",
+    "logo_url": null,
+    "hq_city": "Salisbury",
+    "hq_country": "United Kingdom",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "612938",
+        "company_name": "ONO",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/xglictlyak0rcogdexq8",
+        "city": "Berlin",
+        "website": "onomotion.com",
+        "country": "Germany",
+        "theme_gd": "New Mobility, CleanTech, Smart Supply Chain",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "New Mobility",
+        "1"
+      ],
+      [
+        "CleanTech",
+        "1"
+      ],
+      [
+        "Smart Supply Chain",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "514888b0-368c-b326-727f-2f3c86a165d6",
+    "name": "CSEM",
+    "description": "CSEM is a private Swiss research and technology organization specializing in micro- and nanotechnology.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1427968330/krh7jzrpykccr9ipiigy.png",
+    "hq_city": "Neuch\u00e2tel",
+    "hq_country": "Switzerland",
+    "website_url": "http://www.csem.ch/",
+    "linkedin_url": "https://www.linkedin.com/company/csem",
+    "twitter_url": "https://twitter.com/cseminfo",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "637457",
+        "company_name": "Intento Design",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1502701234/vdlai5tvzfqsqh06rspc.png",
+        "city": "Paris",
+        "website": "intento-design.com",
+        "country": "France",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "fa90a026-687a-21b7-3f42-30f7bee6d81d",
+    "name": "damco",
+    "description": "Manufacturer of dowel basket assemblies for jointed paving and highway construction",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/48/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxOC8wMS8zMS85ZDIyNzZiNmFlOGViM2ZhOGM0YmZmMThlYmU3MjQxMw==.jpg",
+    "hq_city": "The Hague",
+    "hq_country": "Netherlands",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "276362",
+        "company_name": "Portrix Logistic Software",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/h_120,w_120,f_jpg/v1507847753/placeholder_zgpxrr.png",
+        "city": "Hamburg",
+        "website": "portrix-ls.de",
+        "country": "Germany",
+        "theme_gd": "Automation, Smart Supply Chain",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Smart Supply Chain",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "714d0a1f-6a64-fe3a-2cd9-41fbf42effc6",
+    "name": "Dassault Aviation",
+    "description": "Dassault Aviation is an aircraft manufacturer of military, regional, and business jets.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1423067338/foiptazzjvfe8pymrf69.jpg",
+    "hq_city": "Saint-cloud",
+    "hq_country": "France",
+    "website_url": "http://www.dassault-aviation.com/en/",
+    "linkedin_url": "https://www.linkedin.com/company/dassault-aviation",
+    "twitter_url": "https://twitter.com/dassault_onair",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "1053795",
+        "company_name": "Nextflow Software",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/x3n5rumrt7qyfi3il942",
+        "city": "Nantes",
+        "website": "nextflow-software.com",
+        "country": "France",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a2819e4e-2095-46cd-b4cd-760cd571948d",
+    "name": "Deichmann",
+    "description": "A major German shoe and sportswear retail chain",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/8d/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxOC8wMy8xNC8wMGZiYTUzMzFmNDQzOWE5OTJkNmE1OTE3NDg2ODk0ZQ==.png",
+    "hq_city": "Essen",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "908958",
+        "company_name": "Zenloop",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/j7pcgetzuuvvsd0oylnb",
+        "city": "Berlin",
+        "website": "zenloop.com",
+        "country": "Germany",
+        "theme_gd": "Digitalization",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digitalization",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a69c9e70-aea9-40aa-a4d3-69dec1df0ee2",
+    "name": "Demcon",
+    "description": "Demcon supplies high-end technology products and systems such as optomechatronic, robotic and medical systems.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/309fc87acb948f16dce8",
+    "hq_city": "Enschede",
+    "hq_country": "Netherlands",
+    "website_url": "http://www.demcon.nl",
+    "linkedin_url": "https://www.linkedin.com/company/demcon/",
+    "twitter_url": "https://twitter.com/DEMCON",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "779423",
+        "company_name": "Life Cooperative",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/saymemmin0mp1gi3sdjs",
+        "city": "Groningen",
+        "website": "healthyageingbusinesscooperative.nl",
+        "country": "Netherlands",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "c549dbf3-b910-60a5-4bfe-d006765f8aaa",
+    "name": "Deutsche B\u00f6rse",
+    "description": "Deutsche Borse is an exchange company providing investors, financial institutions and companies with access to global capital markets.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1480221780/ridasw8sxlyoszhwxgzr.png",
+    "hq_city": "Frankfurt",
+    "hq_country": "Germany",
+    "website_url": "http://deutsche-boerse.com",
+    "linkedin_url": "http://www.linkedin.com/company/deutsche-borse",
+    "twitter_url": "http://twitter.com/deutscheboerse",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "663274",
+        "company_name": "Code Intelligence",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/rvs2y8xrokozxw40jney",
+        "city": "Bonn",
+        "website": "code-intelligence.com",
+        "country": "Germany",
+        "theme_gd": "Security, Cybersecurity",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Security",
+        "1"
+      ],
+      [
+        "Cybersecurity",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "96ca743f-94ff-918c-dac9-dd1d9ad6bfc2",
+    "name": "Diehl",
+    "description": "A worldwide leading specialist for the design and production of control systems.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/lfnbebqedmnhyqhao3vo",
+    "hq_city": "N\u00fcrnberg",
+    "hq_country": "Germany",
+    "website_url": "http://www.diehl.com/",
+    "linkedin_url": "https://www.linkedin.com/company/diehl-group/?originalSubdomain=in",
+    "twitter_url": "https://www.twitter.com/diehlmetall",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "972678",
+        "company_name": "mioty alliance",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/h_120,w_120,f_jpg/v1507847753/placeholder_zgpxrr.png",
+        "city": "Erlangen",
+        "website": "mioty-alliance.com",
+        "country": "Germany",
+        "theme_gd": "Industry 4.0",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Industry 4.0",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9cc49d0b-4d0f-4d47-043b-364180ff1ff5",
+    "name": "DocMorris",
+    "description": "Doc Morris is an online provider of medical and pharmaceutical products.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1420034599/ibwsfuxy7fpb3sb5g3zo.jpg",
+    "hq_city": "Niederland",
+    "hq_country": "Germany",
+    "website_url": "http://www.docmorris.de",
+    "linkedin_url": "http://www.linkedin.com/company/48936",
+    "twitter_url": "http://twitter.com/DocMorris",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "897123",
+        "company_name": "Barzahlen",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/aupbqrf9crrtsi9rxeta",
+        "city": "Berlin",
+        "website": "barzahlen.de",
+        "country": "Germany",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "4ce42f2e-da0f-568c-0df7-74d20b88704b",
+    "name": "Dr Martens",
+    "description": "Dr. Martens US store for boots, shoes, sandals, clothing, bags and accessories.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1424506248/bfho1nypqmueygsrmtgd.png",
+    "hq_city": "Wollaston",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.drmartens.com/",
+    "linkedin_url": null,
+    "twitter_url": "https://twitter.com/drmartens/",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "557885",
+        "company_name": "Orions Systems",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/eiey2k32xcj7q2wls5uq",
+        "city": "Snoqualmie",
+        "website": "orionssystems.com",
+        "country": "United States",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "28e6a9a5-807c-dd46-598f-26df7cc6b275",
+    "name": "Dunelm",
+    "description": "Dunelm is the UK's home furnishing retailers. Shop for bedding, curtains, furniture, beds, and mattresses.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1480397288/jiyiui8bdglp1lztudxm.png",
+    "hq_city": "Leicester",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.dunelm.com/",
+    "linkedin_url": "https://www.linkedin.com/company/dunelm-soft-furnishings-ltd",
+    "twitter_url": "https://twitter.com/DunelmUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "192084",
+        "company_name": "Qlouder",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1504613505/na1rlkzx2xvfdags9gdt.png",
+        "city": "Maarssen",
+        "website": "qlouder.com",
+        "country": "Netherlands",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "14b4b2ad-3889-0eb7-ab5f-19c000868839",
+    "name": "D\u00fcrr Systems",
+    "description": "Durr is a mechanical and plant engineering firm for automobile manufacturing.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/fvie8a0xrywegezk4kud",
+    "hq_city": "Bietigheim-Bissingen",
+    "hq_country": "Germany",
+    "website_url": "http://www.durr.com/en/",
+    "linkedin_url": "https://www.linkedin.com/company/duerr",
+    "twitter_url": "https://www.twitter.com/duerrag",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "900844",
+        "company_name": "Augmensys",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1449399759/ez7ilrnc88uqs7sg2q5k.png",
+        "city": "Klagenfurt",
+        "website": "augmensys.com",
+        "country": "Austria",
+        "theme_gd": "New Mobility",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "New Mobility",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "ec91f801-a932-427d-9074-a15d010c6c9d",
+    "name": "Edenred",
+    "description": "Edenred is a leading services and payments platform and the everyday companion for people at work",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/wihoqrfqtwxulrwgjnfv",
+    "hq_city": "Issy-les-moulineaux",
+    "hq_country": "France",
+    "website_url": "https://www.edenred.com/en",
+    "linkedin_url": "https://www.linkedin.com/company/edenred",
+    "twitter_url": "https://twitter.com/Edenred",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "418506",
+        "company_name": "MergerWare",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/dqaeia042th0aw31lx0k",
+        "city": "Boston",
+        "website": "mergerware.com",
+        "country": "United States",
+        "theme_gd": "FinTech, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "599de138-8b75-4d1c-93de-03969f526413",
+    "name": "Egmont",
+    "description": "Egmont is a media production company.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/d8b3822b6604825dbc5f",
+    "hq_city": "Copenhagen",
+    "hq_country": "Denmark",
+    "website_url": "https://www.egmont.com/",
+    "linkedin_url": "https://www.linkedin.com/company/egmont/",
+    "twitter_url": "https://twitter.com/egmontmedia",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "1053748",
+        "company_name": "Cefalo",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/lw3cxfb0z4m1cgb4vxid",
+        "city": "Oslo",
+        "website": "cefalo.com",
+        "country": "Norway",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "5ddce60f-6619-4132-a1cb-74e29d892438",
+    "name": "Endemol Shine Group",
+    "description": "Endemol Shine Group is a global production powerhouse creating world class content for all platforms.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/flg1z3wlvbpunbivgj4y",
+    "hq_city": "Amsterdam",
+    "hq_country": "Netherlands",
+    "website_url": "http://www.endemolshinegroup.com/",
+    "linkedin_url": "https://www.linkedin.com/company/163627",
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "188940",
+        "company_name": "eTribez",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397188094/14c5056fa58b35c53a667073162ee30c.jpg",
+        "city": "Los Angeles",
+        "website": "etribez.com",
+        "country": "United States",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "0d136977-3bef-0bf8-06b7-ee89cdb573b5",
+    "name": "ERDF",
+    "description": "ERDF manages the public electricity distribution network for 95% of continental France.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1422596751/gate5gk0smx7ewanpu3e.png",
+    "hq_city": "La D\u00e9fense",
+    "hq_country": "France",
+    "website_url": "http://www.erdf.fr",
+    "linkedin_url": "https://www.linkedin.com/company/541318",
+    "twitter_url": "https://twitter.com/erdfofficiel",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "425489",
+        "company_name": "TeamBrain",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/hj4eahboeqqcnzckouf0",
+        "city": "Paris",
+        "website": "teambrain.fr",
+        "country": "France",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "8eb636c3-6cd2-5b6e-da95-439db16af4d9",
+    "name": "Essent",
+    "description": "Essent",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1487241690/fveifmy9qmcm9ueqcwfi.png",
+    "hq_city": "s-hertogenbosch",
+    "hq_country": "Netherlands",
+    "website_url": "http://www.essent.nl",
+    "linkedin_url": "https://www.linkedin.com/company/essent",
+    "twitter_url": "https://www.twitter.com/essent",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "788009",
+        "company_name": "Interactcrm (Acquired By Netrix LLC in 2018)",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1444068950/iivusyiuqxflbyvhtjqt.jpg",
+        "city": "Newark",
+        "website": "interactcrm.com",
+        "country": "United States",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "dbbef005-5044-f67c-72e4-77d4e2a2b56f",
+    "name": "euronics",
+    "description": "An international organisation of independent electrical retailers who have joined together to form a cooperative partnership.",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/b7/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNS8wNS8wNC9jNWM2NWQ4YzdkMTc1OTAwZTZiYzc1ZDA1NDc3NWE5Yw==.jpg",
+    "hq_city": "Amsterdam",
+    "hq_country": "Netherlands",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "442072",
+        "company_name": "shipcloud.io",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1416908618/kaywk25qk0k2syyotchc.jpg",
+        "city": "Hamburg",
+        "website": "shipcloud.io",
+        "country": "Germany",
+        "theme_gd": "Digital Transformation, Smart Supply Chain",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Smart Supply Chain",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b924ddfe-ad8e-951f-7f68-b07f45aa2681",
+    "name": "Europa Press",
+    "description": "EUROPA PRESS provides Spanish communication and news services on national, international, economic, sports, and health issues.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397202402/d46f3fdfd44b190c033d531dad4d3706.jpg",
+    "hq_city": "Madrid",
+    "hq_country": "Spain",
+    "website_url": "http://www.europapress.es",
+    "linkedin_url": "http://www.linkedin.com/company/europa-press",
+    "twitter_url": "http://twitter.com/europapress_es",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "620056",
+        "company_name": "Linkener",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/a6g0vbrvdypxfvnmgie2",
+        "city": "Valencia",
+        "website": "linkener.com",
+        "country": "Spain",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "2038b9a4-2b84-389a-5fc1-996f4b4cc26d",
+    "name": "Eutelsat",
+    "description": "Eutelsat is a commercial satellite provider with coverage spanning the European continent, the Middle East, Africa India, and the Americas.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397186239/6207a51a0e04e430ca59cffc36bae3d5.png",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "http://www.eutelsat.com",
+    "linkedin_url": "http://www.linkedin.com/company/eutelsat",
+    "twitter_url": "http://twitter.com/Eutelsat_SA",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "367415",
+        "company_name": "BBright",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1445602860/jqktkoq5b1ipbjdmzore.png",
+        "city": "Rennes",
+        "website": "bbright.com",
+        "country": "France",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a849b438-675e-9282-16f6-f9b1567fa358",
+    "name": "EWE AG",
+    "description": "EWE is a service provider active in the business areas of sustainable energy supply.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1434211739/xcxjzxqmwr7u10iepcrh.jpg",
+    "hq_city": "Oldenburg",
+    "hq_country": "Germany",
+    "website_url": "http://www.ewe.com/en/index.php",
+    "linkedin_url": "https://www.linkedin.com/company/ewe-ag",
+    "twitter_url": "https://twitter.com/ewe_ag",
+    "startup_partners_count": 1,
+    "startup_partners": [
+      {
+        "master_startup_id": "673468",
+        "company_name": "Flexperto",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/mmylju4ceyuni4rqf0dp",
+        "city": "Berlin",
+        "website": "flexperto.com",
+        "country": "Germany",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  }
+]

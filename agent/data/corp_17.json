@@ -1,0 +1,1596 @@
+[
+  {
+    "id": "968ac540-6112-1bbd-de31-fcbbaca7089b",
+    "name": "News UK",
+    "description": "News UK is a great company full of talented, dedicated and creative people.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1415338169/zigucclzt0lqoe0f3a7f.png",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "http://news.co.uk",
+    "linkedin_url": "http://www.linkedin.com/company/news-uk",
+    "twitter_url": "https://www.twitter.com/newsuk",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "381930",
+        "company_name": "Echobox",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/rzmouahwkm4xrtk8pndy",
+        "city": "London",
+        "website": "echobox.com",
+        "country": "United Kingdom",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "629143",
+        "company_name": "Analytics Intelligence",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397181021/a8de8ed7f2446a3140eebf71a3286677.png",
+        "city": "London",
+        "website": "analyticsintelligence.com",
+        "country": "United Kingdom",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "6c518ba1-0e35-4872-b7bb-2781410e5aae",
+    "name": "Next",
+    "description": "Next is engages in the retail of clothing, footwear, accessories, and home products for men, women, and children.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/olloaf6x82abqhm3sq6r",
+    "hq_city": "North Palm Beach",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.nextplc.co.uk/",
+    "linkedin_url": "https://www.linkedin.com/company/next-group-plc/",
+    "twitter_url": "https://twitter.com/nextofficial",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "172878",
+        "company_name": "Akanoo",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1412332937/ov7z8qrbsqkavpj4kv9p.png",
+        "city": "Hamburg",
+        "website": "akanoo.com",
+        "country": "Germany",
+        "theme_gd": "Automation, Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "357381",
+        "company_name": "CardioSecur",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/jat3mzgkpkmjkusgrv1u",
+        "city": "Frankfurt",
+        "website": "cardiosecur.com",
+        "country": "Germany",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "3e695635-b0fa-4d9f-b1c7-e0622f9e397b",
+    "name": "Norauto",
+    "description": "Norauto is the leader of the car center in France.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ucyamw6ymetbcewesltu",
+    "hq_city": "Sainghin-en-m\u00e9lantois",
+    "hq_country": "France",
+    "website_url": "http://www.norauto-recrute.fr/",
+    "linkedin_url": "https://www.linkedin.com/company/norauto/",
+    "twitter_url": "https://twitter.com/NorautoFr",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "97455",
+        "company_name": "Net Reviews",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1418721829/p4waltplba7ydlh1ptti.png",
+        "city": "Miami",
+        "website": "avis-verifies.com",
+        "country": "United States",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "263747",
+        "company_name": "Greenbureau",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1459223802/eojaqimafowwtbrhudlw.png",
+        "city": "Paris",
+        "website": "greenbureau.fr",
+        "country": "France",
+        "theme_gd": "FinTech, Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "FinTech",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "300fd6e8-79fc-899f-adc4-834064d336a6",
+    "name": "Nordic Semiconductor",
+    "description": "Nordic Semiconductor World leading semiconductor company specializing in ultra low power short range wireless communication.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1485507585/rweqgg8baf77spsf2m24.png",
+    "hq_city": "Oslo",
+    "hq_country": "Norway",
+    "website_url": "http://www.nordicsemi.com/",
+    "linkedin_url": "https://www.linkedin.com/company/nordic-semiconductor-asa",
+    "twitter_url": "https://twitter.com/NordicTweets",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "149937",
+        "company_name": "Tangerine Japan",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/h_120,w_120,f_jpg/v1507847753/placeholder_zgpxrr.png",
+        "city": "Tokyo",
+        "website": "tangerine.io",
+        "country": "Japan",
+        "theme_gd": "MarTech, Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "537553",
+        "company_name": "Vainu",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/vbc8qfl997hgyccjdcfv",
+        "city": "Helsinki",
+        "website": "vainu.com",
+        "country": "Finland",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "2"
+      ],
+      [
+        "MarTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "34035c51-8f16-4836-8f02-103392479a92",
+    "name": "Northvolt",
+    "description": "Northvolt develops sustainable lithium-ion batteries in conjunction with R&D, industrialization, and recycling to support clean energy.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/pxfqcoyrydfbck0qaxfj",
+    "hq_city": "Stockholm",
+    "hq_country": "Sweden",
+    "website_url": "http://www.northvolt.com",
+    "linkedin_url": "https://www.linkedin.com/company/northvolt",
+    "twitter_url": "https://twitter.com/northvolt",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "483109",
+        "company_name": "QMetry",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1488903841/zqkrrasokpm3mwg2ybkf.png",
+        "city": "Santa Clara",
+        "website": "qmetry.com",
+        "country": "United States",
+        "theme_gd": "Digital Transformation, Safety",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "898171",
+        "company_name": "Timescale",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/yump0cy01iukeocozrur",
+        "city": "New York",
+        "website": "timescale.com",
+        "country": "United States",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Safety",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9306c230-e735-6ac4-e94b-ca5d495b7bd3",
+    "name": "Novo Nordisk",
+    "description": "Novo Nordisk is a global healthcare company with more than 90 years of innovation and leadership in diabetes care.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1474364282/sapsornyr3mmugckln0q.jpg",
+    "hq_city": "Bagsv\u00e6rd",
+    "hq_country": "Denmark",
+    "website_url": "http://www.novonordisk.com/",
+    "linkedin_url": "http://www.linkedin.com/company/novo-nordisk",
+    "twitter_url": "http://twitter.com/novonordisk",
+    "startup_partners_count": 4,
+    "startup_partners": [
+      {
+        "master_startup_id": "2000239",
+        "company_name": "Omada Health",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/ntrcj9clilz78z971i8d",
+        "city": "San Francisco",
+        "website": "omadahealth.com",
+        "country": "United States",
+        "theme_gd": "Health Care",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "7335",
+        "company_name": "ePatientFinder",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/y9fmn2bxtdavj7byidpp",
+        "city": "Austin",
+        "website": "epatientfinder.com",
+        "country": "United States",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "110101",
+        "company_name": "Elligo Health Research",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/rylmjlywrdxlrz3j2iqo",
+        "city": "Austin",
+        "website": "elligohealthresearch.com",
+        "country": "United States",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "729663",
+        "company_name": "Liva Healthcare",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/bmzjbolp9squkefaytvl",
+        "city": "Copenhagen",
+        "website": "livahealthcare.com",
+        "country": "Denmark",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "3"
+      ],
+      [
+        "Health Care",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "d4a0bf9b-1d80-24b8-da7b-a7511c5e710a",
+    "name": "Novozymes",
+    "description": "Novozymes is the world leader in bioinnovation.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1449017284/ix5p7b6xvreo1fw68n9b.png",
+    "hq_city": "Bagsv\u00e6rd",
+    "hq_country": "Denmark",
+    "website_url": "https://www.novozymes.com/en#",
+    "linkedin_url": "http://www.linkedin.com/company/novozymes",
+    "twitter_url": "https://twitter.com/Novozymes",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "240198",
+        "company_name": "Flyability",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ooqaus96m8rqo3do19tp",
+        "city": "Lausanne",
+        "website": "flyability.com",
+        "country": "Switzerland",
+        "theme_gd": "Automation, Industry 4.0",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "902642",
+        "company_name": "Eupry",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/aqfnh55o0wykbesbhnrp",
+        "city": "Copenhagen",
+        "website": "eupry.com",
+        "country": "Denmark",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ],
+      [
+        "HealthTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "ecd8ef52-daa3-70ac-87c6-bf3ab2dac415",
+    "name": "ONERA",
+    "description": "ONERA is the leading French technology research in aeronautics, space and defense.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1418899094/bj6eels9yyoun9tak16k.png",
+    "hq_city": "Palaiseau",
+    "hq_country": "France",
+    "website_url": "http://www.onera.fr",
+    "linkedin_url": "http://www.linkedin.com/company/onera",
+    "twitter_url": "http://twitter.com/onera_fr",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "132645",
+        "company_name": "VitaDX",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/pauept7mdbnqvshal6fj",
+        "city": "Paris",
+        "website": "vitadx.com",
+        "country": "France",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "825984",
+        "company_name": "Vectoflow",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1470144727/uvrjblqmboby6wqzlaq6.png",
+        "city": "Gilching",
+        "website": "vectoflow.de",
+        "country": "Germany",
+        "theme_gd": "Industry 4.0",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "9cda04a4-d21c-4a8d-8b3d-42fd0e9189c5",
+    "name": "Opera Software AS",
+    "description": "Opera Software develops web browsers for mobiles and desktops, mobile payment services and artificial intelligence solutions.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/uma6fouxafejysn4arza",
+    "hq_city": "Oslo",
+    "hq_country": "Norway",
+    "website_url": "http://operasoftware.com/",
+    "linkedin_url": "https://www.linkedin.com/company/opera-software",
+    "twitter_url": "https://twitter.com/Opera/",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "480237",
+        "company_name": "Simplex",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/hqfcxlhxremrldahalle",
+        "city": "Ramat Gan",
+        "website": "simplex.com",
+        "country": "Israel",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "922280",
+        "company_name": "ContentKing",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/f25ah06zr5yd8423uroy",
+        "city": "Brno",
+        "website": "contentkingapp.com",
+        "country": "Czech Republic",
+        "theme_gd": "MarTech, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ],
+      [
+        "MarTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "1e0467da-6582-58d9-b03e-bd0fa0f2ec24",
+    "name": "Organization for Economic Cooperation and Development (OECD)",
+    "description": "OECD is the Organization for Economic Cooperation and Development.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1413201004/x7cumkttrzhdcit1qrka.png",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "http://www.oecd-ilibrary.org",
+    "linkedin_url": null,
+    "twitter_url": "http://twitter.com/OECD_Pubs",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "640662",
+        "company_name": "Viderum Inc. (Trading as Datopian)",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1453306498/cv5kq4misewdxpwglj5u.png",
+        "city": "Berlin",
+        "website": "datopian.com",
+        "country": "Germany",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "826228",
+        "company_name": "Opiflex",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1483519462/fxhmk74zfwg34vfdmyud.png",
+        "city": "V\u00e4ster\u00e5s",
+        "website": "opiflex.se",
+        "country": "Sweden",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "bb1842b7-61b3-4bb0-ae2d-58ccd37be927",
+    "name": "Orpi",
+    "description": "Orpi provides real estate management services in the France.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/3cb925254bcaf2226bba",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "https://www.orpi.com/",
+    "linkedin_url": "https://www.linkedin.com/company/orpi/",
+    "twitter_url": "https://twitter.com/Orpi_France",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "120582",
+        "company_name": "PriceHubble",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/e8fwmkks9di6uzlkadjw",
+        "city": "Z\u00fcrich",
+        "website": "pricehubble.com",
+        "country": "Switzerland",
+        "theme_gd": "PropTech, Industry 4.0",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "840792",
+        "company_name": "Apizee",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1499847587/rdpnucp9bry5dhyuq545.png",
+        "city": "Lannion",
+        "website": "apizee.com",
+        "country": "France",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "PropTech",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "2e254be4-5607-366f-420b-669bfd1b360e",
+    "name": "OVHcloud",
+    "description": "OVHcloud is an independent French company that offers web, dedicated, and cloud hosting solutions.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ayzwkdawmlyzvuummuf4",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "http://ovh.com",
+    "linkedin_url": "http://www.linkedin.com/company/1883877",
+    "twitter_url": "http://twitter.com/ovhcloud",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "322995",
+        "company_name": "Memsource",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/rq5udi5v4biwvr7xo2ws",
+        "city": "Prague",
+        "website": "memsource.com",
+        "country": "Czech Republic",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "977154",
+        "company_name": "It Touch",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/07bd4bd01900031ccce8",
+        "city": "Warsaw",
+        "website": "ittouch.com",
+        "country": "Poland",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "7e7d5642-24ef-d9fc-dd9e-cb92879e1379",
+    "name": "Ozon",
+    "description": "Ozon is a multi-category e-commerce platform that helps customers find product offerings from sellers of all sizes.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/yl9lxjisipc4zpcfftqo",
+    "hq_city": "Moscow",
+    "hq_country": "Russia",
+    "website_url": "https://corporate.ozon.ru/",
+    "linkedin_url": "https://www.linkedin.com/company/llc-internet-solutions-ozon-ru-/",
+    "twitter_url": "https://twitter.com/group_ozon",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "851935",
+        "company_name": "BestDoctor",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/xwrwy01xpa418gnvu67m",
+        "city": "Moscow",
+        "website": "bestdoctor.ru",
+        "country": "Russia",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "859029",
+        "company_name": "Brandquad",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1498816795/jeymi2iwp3le0gmaldvs.jpg",
+        "city": "Lille",
+        "website": "brandquad.io",
+        "country": "France",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "0d55c4b9-458a-ca1a-3e53-d79ea537bc28",
+    "name": "Panzani",
+    "description": "Panzani is the market leader in France in the dry and fresh pasta, rice, sauces, couscous and semolina businesses",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ioe1lkgbyfx17aq9ijzl",
+    "hq_city": "Lyon",
+    "hq_country": "France",
+    "website_url": "http://www.panzani.fr/",
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "37932",
+        "company_name": "Worders",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1486572425/bezg1zrdkorkqdbeslqh.jpg",
+        "city": "Paris",
+        "website": "worders.net",
+        "country": "France",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "461303",
+        "company_name": "Data Impact",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ampvambhxprf4n0vvpd6",
+        "city": "Paris",
+        "website": "dataimpact.fr",
+        "country": "France",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "2"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "0e023c9b-146d-ca6e-06c1-1fcc66057550",
+    "name": "Paysafe",
+    "description": "Paysafe is a global payments provider offering a range of payments solutions for businesses and consumers.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/txzyv21bswexrrzztlt9",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "https://www.paysafe.com",
+    "linkedin_url": "https://www.linkedin.com/company/paysafegroup",
+    "twitter_url": "https://twitter.com/plugintopaysafe",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "116559",
+        "company_name": "Cato Networks",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/viidrjuzmvvcdw23mbrp",
+        "city": "Tel Aviv",
+        "website": "catonetworks.com",
+        "country": "Israel",
+        "theme_gd": "Automation, Cybersecurity",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "905337",
+        "company_name": "Japa",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/x0zknmis4mb1f8blxlvq",
+        "city": "Woodland",
+        "website": "parkjapa.com",
+        "country": "United States",
+        "theme_gd": "New Mobility",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Cybersecurity",
+        "1"
+      ],
+      [
+        "New Mobility",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "4ee185c1-eec9-4e13-8224-2773ba602468",
+    "name": "Perfetti Van Melle",
+    "description": "Perfetti Van Melle is a privately owned company, producing and distributing candies and chewing gums in more than 150 countries worldwide.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/h_120,w_120,f_jpg/v1507847753/placeholder_zgpxrr.png",
+    "hq_city": "Amsterdam",
+    "hq_country": "Netherlands",
+    "website_url": "http://www.perfettivanmelle.com",
+    "linkedin_url": "https://www.linkedin.com/company/perfetti-van-melle/",
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "602671",
+        "company_name": "BeatRoute | CRM SFA for Intelligent Sales Force Automation",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1491067613/verx7xugadsldkbt4gu6.png",
+        "city": "Gurgaon",
+        "website": "beatroute.io",
+        "country": "India",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "796513",
+        "company_name": "Recykal",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/paajtxmll9tjop1g8jj6",
+        "city": "Hyderabad",
+        "website": "recykal.com",
+        "country": "India",
+        "theme_gd": "Digital Transformation, Sustainability",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "2"
+      ],
+      [
+        "Sustainability",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a776049d-2ca6-20e3-89d1-936ddd34d735",
+    "name": "Pets at Home",
+    "description": "Pets at Home is the UK's largest pet supplies retailer, with more than 370 stores and 6,000 employees.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1473580810/e2xp42cdh2a5afkjw5mr.png",
+    "hq_city": "Handforth",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.petsathome.com",
+    "linkedin_url": null,
+    "twitter_url": "https://www.twitter.com/petsathome",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "505268",
+        "company_name": "Enable",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/nd47po2jss2afxilbw1p",
+        "city": "Stratford-upon-avon",
+        "website": "enable.com",
+        "country": "United Kingdom",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "1013296",
+        "company_name": "TrafficDefender",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/e05xinsqhvqwdblgxlsi",
+        "city": "Manchester",
+        "website": "tdefender.com",
+        "country": "United Kingdom",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "4284259b-17da-583a-ce3f-383e05147bd0",
+    "name": "PicPay",
+    "description": "PicPay is a digital wallet app that enables users to send and receive money, pay bills, store loyalty cards and discount coupons, and more.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/kmppxoldcdzqlri1fou1",
+    "hq_city": "Vitoria",
+    "hq_country": "Spain",
+    "website_url": "http://www.picpay.com",
+    "linkedin_url": "https://www.linkedin.com/company/picpay/",
+    "twitter_url": "https://www.twitter.com/picpay",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "240553",
+        "company_name": "PicPay",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1404932440/whmu57jkyfzuzsrodhnu.png",
+        "city": "Vitoria",
+        "website": "picpay.com",
+        "country": "Spain",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "366472",
+        "company_name": "Leads2b",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/ts4sc99cjp3w9dmg6c7n",
+        "city": "Curitiba",
+        "website": "leads2b.com",
+        "country": "Brazil",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "FinTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "46d3c4e0-d6f7-d060-47e1-a9159a34210a",
+    "name": "Pilz",
+    "description": "Pilz is a innovative automation technology company as experts in the safety of human, machine.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/e1rh1zmqrsrfz44zkvpy",
+    "hq_city": "Safenwil",
+    "hq_country": "Switzerland",
+    "website_url": "http://www.pilz.com",
+    "linkedin_url": "http://www.linkedin.com/company/pilz",
+    "twitter_url": "http://twitter.com/Pilz_INT",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "138039",
+        "company_name": "Cesanta",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1498767939/ukqeheygnrec3zijvc8z.png",
+        "city": "Dublin",
+        "website": "cesanta.com",
+        "country": "Ireland",
+        "theme_gd": "Smart Home",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "1036744",
+        "company_name": "MICo Vision",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/af76bb7c43f708d199dd",
+        "city": "Brno",
+        "website": "vision.mico.cz",
+        "country": "Czech Republic",
+        "theme_gd": "Industry 4.0",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Smart Home",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "fd42343a-2087-d7cd-c42a-b91babacb895",
+    "name": "Playrix",
+    "description": "Playrix is the company behind Township, Fishdom, Gardenscapes and Homescapes.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1480923951/frl7appdwku4ys0s8ud4.png",
+    "hq_city": "Dublin",
+    "hq_country": "Ireland",
+    "website_url": "http://www.playrix.com",
+    "linkedin_url": "https://www.linkedin.com/company/playrix-entertainment",
+    "twitter_url": "http://twitter.com/Playrix",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "21002",
+        "company_name": "Capermint Technologies",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1482300065/rfdysjef4wipu1yiik4i.png",
+        "city": "Ahmedabad",
+        "website": "capermint.com",
+        "country": "India",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "411762",
+        "company_name": "SuperSonic",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/hgexdxkggxam54hclqy0",
+        "city": "San Francisco",
+        "website": "ironsrc.com",
+        "country": "United States",
+        "theme_gd": "MarTech, Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "MarTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a01e8ea1-83be-d6d3-5f6e-5bf7ea14829f",
+    "name": "Playtech",
+    "description": "Playtech is an Online Gaming B2B Software Provider.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397197318/1891e6a278fa5b522a5064b536438485.jpg",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.playtech.com",
+    "linkedin_url": "http://www.linkedin.com/company/18717",
+    "twitter_url": "https://www.twitter.com/jameslbennett",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "70642",
+        "company_name": "PlayAmo",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1489402714/xhnej0ame9a8auldx3zn.png",
+        "city": "Nicosia",
+        "website": "playamo.com",
+        "country": "Cyprus",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "564259",
+        "company_name": "Komodo Consulting",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1474105007/al3zy31mke5xsa1utkdz.png",
+        "city": "Ra'anana",
+        "website": "komodosec.com",
+        "country": "Israel",
+        "theme_gd": "Cybersecurity",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Cybersecurity",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "b4340480-cbf3-48a6-ba72-c316f33dfe59",
+    "name": "Postbank",
+    "description": "Postbank is a broad branch network throughout the country and a significant client base of citizens, companies and institutions.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/uu2vu2kv29skjwtxeodj",
+    "hq_city": "Sofia",
+    "hq_country": "Bulgaria",
+    "website_url": "https://www.postbank.bg/en",
+    "linkedin_url": "https://www.linkedin.com/company/postbankbg/",
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "465978",
+        "company_name": "Sensika Technologies",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397751592/67073d762d0e6af550cbb5cd67809380.jpg",
+        "city": "Sofia",
+        "website": "sensika.com",
+        "country": "Bulgaria",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "1053770",
+        "company_name": "GROSSE LIEBE Kommunikationsagentur",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/6703ba9a2bc833d6b8e1",
+        "city": "Hamburg",
+        "website": "grosseliebe.net",
+        "country": "Germany",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "728197dd-8e19-4ab4-bb28-690c45496c71",
+    "name": "PRADA",
+    "description": "PRADA is an E-commerce Company.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/jmb54udny5yrgvnep23s",
+    "hq_city": "Milano",
+    "hq_country": "Italy",
+    "website_url": "https://www.prada.com/",
+    "linkedin_url": null,
+    "twitter_url": "https://twitter.com/prada",
+    "startup_partners_count": 5,
+    "startup_partners": [
+      {
+        "master_startup_id": "2001500",
+        "company_name": "Wattics",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/gizmhit1y0pso6oi5gq5",
+        "city": "Dublin",
+        "website": "wattics.com",
+        "country": "IRL",
+        "theme_gd": "Analytics, SaaS",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2000415",
+        "company_name": "Syte",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/coyxyffbsaqqtosehj6v",
+        "city": "Tel Aviv",
+        "website": "syte.ai",
+        "country": "Israel",
+        "theme_gd": "Artificial Intelligence, B2B, Big Data, Retail Technology",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "2000548",
+        "company_name": "Altava Group",
+        "logo_url": "https://res.cloudinary.com/crunchbase-production/image/upload/kxfahmc3e13xe0vwta6w",
+        "city": "Singapore",
+        "website": "altava.com",
+        "country": "Singapore",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "803371",
+        "company_name": "Cloud4Wi",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/vjgu26xibo7l5jtszovz",
+        "city": "San Francisco",
+        "website": "cloud4wi.com",
+        "country": "United States",
+        "theme_gd": "Safety, Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "908800",
+        "company_name": "Fusionex",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1436008765/wkzwwhgczyy39bgkdbww.png",
+        "city": "London",
+        "website": "fusionex-international.com",
+        "country": "United Kingdom",
+        "theme_gd": "Industry 4.0, Social Good (Economy)",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Analytics",
+        "1"
+      ],
+      [
+        "SaaS",
+        "1"
+      ],
+      [
+        "Artificial Intelligence",
+        "1"
+      ],
+      [
+        "B2B",
+        "1"
+      ],
+      [
+        "Big Data",
+        "1"
+      ],
+      [
+        "Retail Technology",
+        "1"
+      ],
+      [
+        "Safety",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ],
+      [
+        "Social Good (Economy)",
+        "1"
+      ],
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "58aa3601-1405-82f3-73df-fb7cf29c34b7",
+    "name": "Pure",
+    "description": "Pure is a digital radio manufacturer and engineering firm.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1418663243/oeuz1mc4zyxi1c2mgmj9.jpg",
+    "hq_city": "Kings Langley",
+    "hq_country": "United Kingdom",
+    "website_url": "http://www.pure.com/",
+    "linkedin_url": "https://www.linkedin.com/company/pure",
+    "twitter_url": "http://twitter.com/pure_insider",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "386046",
+        "company_name": "Navigo Proteins GmbH",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/bygkdeosfvsjpplhnljz",
+        "city": "Halle",
+        "website": "navigo-proteins.com",
+        "country": "Germany",
+        "theme_gd": "HealthTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "581200",
+        "company_name": "Glice",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1411713904/ndlgfrsgzvcswqeu1y1j.jpg",
+        "city": "Luzern",
+        "website": "glicerink.com",
+        "country": "Switzerland",
+        "theme_gd": "CleanTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "HealthTech",
+        "1"
+      ],
+      [
+        "CleanTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "053d3527-35d4-d624-bc1f-935723c11799",
+    "name": "PZ Cussons",
+    "description": "PZ Cussons is a multinational consumer goods business.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1407490904/uthdnf00qrpxt4lmw5gg.png",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "http://pzcussons.com",
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "315694",
+        "company_name": "TradeDepot",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/qql1svezqfrezbphewhm",
+        "city": "Lagos",
+        "website": "tradedepot.co",
+        "country": "Nigeria",
+        "theme_gd": "Smart Supply Chain",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "766205",
+        "company_name": "Ravelware Technology",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/phuqxn6eume10vq16trs",
+        "city": "Bekasi",
+        "website": "ravelware.co",
+        "country": "Indonesia",
+        "theme_gd": "Industry 4.0",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Smart Supply Chain",
+        "1"
+      ],
+      [
+        "Industry 4.0",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "01ac8941-f877-4622-4df7-a5a6ec02c4fb",
+    "name": "QIWI",
+    "description": "QIWI is a payment service that enables its users to make payments to individuals, the internet, and mobile communication channels.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1398429143/jp5gd0oyixbg8udk0yfa.png",
+    "hq_city": "Moscow",
+    "hq_country": "Russia",
+    "website_url": "http://qiwi.ru",
+    "linkedin_url": "http://www.linkedin.com/company/1363706",
+    "twitter_url": "http://twitter.com/qiwirussia",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "209852",
+        "company_name": "AGORA",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/jugqphnflfje3zguqc9l",
+        "city": "Moscow",
+        "website": "agora.ru",
+        "country": "Russia",
+        "theme_gd": "Smart Supply Chain, Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "276200",
+        "company_name": "HostSailor",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1403556235/l5azehmzrbvjewlzcpkl.jpg",
+        "city": "Dubai",
+        "website": "hostsailor.com",
+        "country": "United Arab Emirates",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Smart Supply Chain",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "fd067c91-cdc7-8fa1-cd65-9b0b36a4315d",
+    "name": "Quintessentially",
+    "description": "Quintessentially is a U.K.-based company that provides private and corporate concierge services worldwide.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1411090991/qwkcxwpzxkza3wb1371m.png",
+    "hq_city": "London",
+    "hq_country": "United Kingdom",
+    "website_url": "https://www.quintessentially.com/",
+    "linkedin_url": "http://www.linkedin.com/company/19990",
+    "twitter_url": "http://twitter.com/Q_LDN",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "136808",
+        "company_name": "The Intern Group",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397763252/ff19c7093b2056df12509a7a3f0d9ecc.jpg",
+        "city": "London",
+        "website": "theinterngroup.com",
+        "country": "United Kingdom",
+        "theme_gd": "Future of Work",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "623919",
+        "company_name": "Mile5 Solutions",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397200144/79fac3243728499022f4a74fba188c1e.jpg",
+        "city": "Irvine",
+        "website": "mile5solutions.com",
+        "country": "United States",
+        "theme_gd": "Other",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Future of Work",
+        "1"
+      ],
+      [
+        "Other",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "58e82386-e92e-2af7-31db-f5234db492f5",
+    "name": "Radio France",
+    "description": "Radio France is a French public service radio broadcaster which specialises in entertaining and informative talk mixed with a wide variety",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1441906794/sbb5ctjfc90imxj5jkrp.png",
+    "hq_city": "Paris",
+    "hq_country": "France",
+    "website_url": "http://www.radiofrance.fr/",
+    "linkedin_url": "https://www.linkedin.com/company/radio-france",
+    "twitter_url": "http://twitter.com/radiofrance",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "31617",
+        "company_name": "Valossa",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1480055921/ocyjuokoejyqdecqbfqf.png",
+        "city": "Oulu",
+        "website": "valossa.com",
+        "country": "Finland",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "947514",
+        "company_name": "Myposeo",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/zsglpo3vrly6k4cbergb",
+        "city": "Levallois-perret",
+        "website": "en.myposeo.com",
+        "country": "France",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "2"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "87e0daac-efe8-46fe-8f18-d38982f1bc2f",
+    "name": "Raiffeisen Bank International",
+    "description": "Raiffeisen Bank International specializes in corporate finance, mergers, and acquisitions.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/tzjlnw5blj6pe03fbbnv",
+    "hq_city": "Vienna",
+    "hq_country": "Austria",
+    "website_url": "https://www.rbinternational.com/",
+    "linkedin_url": "https://www.linkedin.com/company/raiffeisen-bank-international/",
+    "twitter_url": "https://twitter.com/RBI_Presse",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "436551",
+        "company_name": "Coadjute",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/pf5pzscxaqjptodifvxh",
+        "city": "London",
+        "website": "coadjute.com",
+        "country": "United Kingdom",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "924592",
+        "company_name": "Elevator Lab powered by Raiffeisen Bank International",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/f2sunwljr8aussjacu4i",
+        "city": "Vienna",
+        "website": "elevator-lab.com",
+        "country": "Austria",
+        "theme_gd": "FinTech",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "FinTech",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "a004fe72-68d3-4769-077c-fe6823101f99",
+    "name": "Ravensburger",
+    "description": "Ravensburger is the supplier of puzzles, games and creative products.",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/h_120,w_120,f_jpg/v1507847753/placeholder_zgpxrr.png",
+    "hq_city": "Ravensburg",
+    "hq_country": "Germany",
+    "website_url": "https://www.ravensburger.de",
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "430754",
+        "company_name": "trbo GmbH",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1397190373/c1d1681b7f9c69bac3533300801e3aa5.png",
+        "city": "Munich",
+        "website": "trbo.com",
+        "country": "Germany",
+        "theme_gd": "Future of Work, Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "581039",
+        "company_name": "Adference",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1503992526/u4rwdryme7z0aja1b8ja.png",
+        "city": "L\u00fcneburg",
+        "website": "adference.com",
+        "country": "Germany",
+        "theme_gd": "Digitalization",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Future of Work",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Digitalization",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "7bc53753-b6a9-4c76-a553-f38bc05066eb",
+    "name": "Real",
+    "description": "Department stores and online stores",
+    "logo_url": "https://s3-eu-west-1.amazonaws.com/dealroom-images/07/NzQ6NzQ6Y29tcGFueUBzMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9kZWFscm9vbS1pbWFnZXMvMjAxNy8wMy8zMS8wYzViZWQzMTVlMTc5MjllYTIzMTBkNjBkYzBkZmMyZQ==.png",
+    "hq_city": "Singapore",
+    "hq_country": "Germany",
+    "website_url": null,
+    "linkedin_url": null,
+    "twitter_url": null,
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "322053",
+        "company_name": "Offerista Group",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/elfyjc0042zjbeyujted",
+        "city": "Berlin",
+        "website": "offerista.com",
+        "country": "Germany",
+        "theme_gd": "MarTech",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "998319",
+        "company_name": "eCommeleon GmbH",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/mnt5fvzzpfyshze78od2",
+        "city": "Leipzig",
+        "website": "ecommeleon.com",
+        "country": "Germany",
+        "theme_gd": "Digital Transformation, Automation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "MarTech",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ],
+      [
+        "Automation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  },
+  {
+    "id": "7baad130-e509-1280-4428-999c2dd1a3e4",
+    "name": "Reed Exhibitions",
+    "description": "The world\u2019s leading events organiser",
+    "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/v1412755642/nxwpxyzxanroouoccd8g.png",
+    "hq_city": "Richmond",
+    "hq_country": "United Kingdom",
+    "website_url": "https://www.reedexpo.com",
+    "linkedin_url": "http://www.linkedin.com/company/reed-exhibitions",
+    "twitter_url": "http://twitter.com/ReedExhibitions",
+    "startup_partners_count": 2,
+    "startup_partners": [
+      {
+        "master_startup_id": "614562",
+        "company_name": "ExpoPlatform",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/zfcx3dznicfwxeytuabz",
+        "city": "Cambridge",
+        "website": "expoplatform.com",
+        "country": "United Kingdom",
+        "theme_gd": "Automation",
+        "__typename": "Company"
+      },
+      {
+        "master_startup_id": "758975",
+        "company_name": "Interactio",
+        "logo_url": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_120,w_120,f_jpg/pszlaadjqgtnfq4b8tzx",
+        "city": "Vilnius",
+        "website": "interactio.io",
+        "country": "Lithuania",
+        "theme_gd": "Digital Transformation",
+        "__typename": "Company"
+      }
+    ],
+    "startup_themes": [
+      [
+        "Automation",
+        "1"
+      ],
+      [
+        "Digital Transformation",
+        "1"
+      ]
+    ],
+    "startup_friendly_badge": "NO",
+    "__typename": "CorporateDetailsType"
+  }
+]
