@@ -1,8 +1,6 @@
-## Phase 1 - Data Crawling 
+## Phase 1 - Data Crawling
 
-Inspecting a company's page, we see that `https://ranking.glassdollar.com/graphql` is queried for company information. For example, for Siemens, payload sent was 
-
-
+Inspecting a company's page, we see that `https://ranking.glassdollar.com/graphql` is queried for company information. For example, for Siemens, payload sent was
 
 ```
 variables: {id: "8483fc50-b82d-5ffa-5f92-6c72ac4bdaff"}
@@ -35,9 +33,9 @@ query ($id: String!) {
 }
 ```
 
-This query will be sent for every company's id separately. To gather company ids, we can inspect graphql with an introspection query. Which returns a query `corporates`: 
+This query will be sent for every company's id separately. To gather company ids, we can inspect graphql with an introspection query. Which returns a query `corporates`:
 
-```
+```json
 {
             "name": "corporates",
             "description": null,
@@ -79,38 +77,81 @@ This query will be sent for every company's id separately. To gather company ids
           ...
 ```
 
-which means corporate data is held in pages. We can keep querying different pages for corporate ids. Then, we can use corporate query to get the relevant information. 
+which means corporate data is held in pages. We can keep querying different pages for corporate ids. Then, we can use corporate query to get the relevant information.
 
 ## Phase 2-4 and Alternative Solution with Asyncio
 
-We will set up 2 different instances, which: 
+We will set up 2 different instances, which:
 
 - Celery worker + FastAPI
 - Redis (for Celery to use)
 
 Simple `docker-compose build` will create the instances. `docker-compose up` will start the containers. For crawling process to start, `curl http://localhost:8000/crawl` can be used. This endpoint will return:
 
+```json
+{
+  "status": "Batch process initiated",
+  "batch_id": "15f178d7-b7a2-4dab-91f1-33ccb735f9f0"
+}
 ```
-{"status":
-  "Batch process initiated",
-  "batch_id":"15f178d7-b7a2-4dab-91f1-33ccb735f9f0"}
-```
 
-The batch_id can be used to track the process via `/status/{batch_id}` endpoint. For each page, the process will create corp_{page}.json files, which hold the corporate data. This data is retrieved under agent/data for further use. 
+The batch*id can be used to track the process via `/status/{batch_id}` endpoint. For each page, the process will create corp*{page}.json files, which hold the corporate data. This data is retrieved under agent/data for further use.
 
-
-
-## Phase 5 - AI Agent
+## Phase 5 - LangGraph AI Agent
 
 ### Preprocessing
 
-After gathering all the files together, let's precompute each embedding. This will be faster, and cost efficient. There can be different ways depending on need and user experience, but I chose the following to _define_ a company:
+Gathering of the files and modifications to data structure can be found in `preprocessing.py`
+
+### User queries
+
+I've used Gemini 1.5 Flash model to process user queries. Queries are processed in such a way that:
 
 ```
-- name
-- description
-- city 
-- country 
-- themes
+name
+description
+city
+country
+themes
 ```
 
+can be used as filters to get corporate data. To implement this type of filtering, I've also gathered all the valid themes in data. The LLM maps to the closest theme if user means filtering in _some other way_ that is close enough.
+
+The user also can decide how to group selected corporates. The options are
+
+```
+themes
+geography
+default
+```
+
+where default grouping includes all of the filtering list mentioned above.
+
+### Data fetcher node
+
+After extracting selection filters from user query, data fetcher node scans all the data and updates graph state. where graph state is:
+
+```python
+class State(TypedDict):
+    query: str
+    parsed_query: dict
+    filtered_corps: List[Dict]
+    clustered_corps: List[Dict]
+    qa_result: str
+```
+
+### Clustering node
+
+While clustering the companies based on their text data only, a method that understands the semantic meaning of the words will be better. Our dataset is very small, so using a method like TF-IDF would not be the best approach.
+
+For clustering to perform better, I also created the text data so that each startup theme's explanation repeats the number of times a corporate has a startup under that theme. Better explained in code:
+
+```python
+(theme[0] + " ") * int(theme[1])
+for theme in corporate["startup_themes"]
+if theme[0] != "Other"
+```
+
+We need to include word embedding for semantics. Instead of using a gensim model, I used google's text-embedding-004 model to get word embeddings, then performed clustering using KMeans method.
+
+### Quality Assurance Node

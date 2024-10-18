@@ -1,14 +1,26 @@
-from typing import Annotated, Sequence
-from typing_extensions import TypedDict, List, Dict
-import langgraph as lg
-from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-import json
-from dotenv import load_dotenv
 import os
+import json
+from typing_extensions import TypedDict, List, Dict
+from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.metrics import (
+    silhouette_score,
+    calinski_harabasz_score,
+    davies_bouldin_score,
+)
+from dotenv import load_dotenv
 
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+LLM = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
+
+EMBEDDING = GoogleGenerativeAIEmbeddings(
+    model="text-embedding-004", google_api_key=GOOGLE_API_KEY
+)
+
 
 with open("corp_data.json", "r") as f:
     CORP_DATA = json.load(f)
@@ -18,15 +30,9 @@ class State(TypedDict):
     query: str
     parsed_query: dict
     filtered_corps: List[Dict]
-    clustered_corps: List[Dict]
+    cluster_list: np.ndarray
+    embeddings: np.ndarray
     qa_result: str
-
-
-LLM = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
-
-EMBEDDING = GoogleGenerativeAIEmbeddings(
-    model="text-embedding-004", google_api_key=GOOGLE_API_KEY
-)
 
 
 def parse_query(state: State, llm) -> State:
@@ -61,9 +67,11 @@ def parse_query(state: State, llm) -> State:
     - themes
     - geography
 
-    - If the query mentions a grouping criterion not in the list, map it to the closest match.
+    - If the query mentions a grouping criterion not in the list, map it to 'default'.
+    - If the query does not mention a grouping criterion. map it to 'default'.
 
     Respond only in JSON format with fields `filter` and `group_by`. 
+    While using city and country, use hq_city and hq_country as their column names.
     Example format:
     {{
     "filter": {{"name": "example", "country": "example_country"}},
@@ -93,20 +101,28 @@ def fetch_data(state: State, corp_data: List[Dict]) -> State:
     filter_criteria = state["parsed_query"]["filter"]
     filtered_corps = []
     for corp in corp_data:
-        add = True
+        add_other = True
+        add_theme = False
         for key, value in filter_criteria.items():
             if key == "themes":
-                if not set(corp["themes"]).issubset(value):
-                    add = False
+                for theme in value:
+                    if theme in corp["themes"]:
+                        add_theme = True
+                        break
             else:
-                if corp.get(key).lower().find(value.lower()) == -1:
-                    add = False
-        if add:
-            filtered_corps.append(corp)
-    return {"filtered_corps": filtered_corps, **state}
+                corp_value = str(corp.get(key, "")).lower()
+                if corp_value.find(value.lower()) == -1:
+                    add_other = False
+        if "themes" in filter_criteria.keys():
+            if add_other and add_theme:
+                filtered_corps.append(corp)
+        else:
+            if add_other:
+                filtered_corps.append(corp)
+    return filtered_corps
 
 
-def cluster(state: State, embedding) -> State:
+def cluster(state: State, embedding, n_clusters=2) -> State:
     corps = state["filtered_corps"]
     group_by = state["parsed_query"]["group_by"]
 
@@ -149,3 +165,16 @@ def cluster(state: State, embedding) -> State:
 
     for data in text_data:
         text_data_processed.append(data.lower().split())
+
+    embeddings = [embedding.embed_query(text)[50:] for text in text_data]
+    X = np.array(embeddings)
+
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    clusters = kmeans.fit_predict(X)
+
+    return {"cluster_list": clusters, "embeddings": X, **state}
+
+
+def quality_assurance(state: State) -> State:
+    corps = state["filtered_corps"]
+    cluster_list = state["cluster_list"]

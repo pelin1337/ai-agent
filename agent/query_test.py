@@ -1,7 +1,16 @@
 import json
+
 from dotenv import load_dotenv
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from sklearn.cluster import KMeans
+import numpy as np
+from scipy.spatial.distance import cosine
+from sklearn.metrics import (
+    silhouette_score,
+    calinski_harabasz_score,
+    davies_bouldin_score,
+)
 
 load_dotenv()
 
@@ -12,7 +21,9 @@ with open("corp_data.json", "r") as f:
 LLM = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
 
 EMBEDDING = GoogleGenerativeAIEmbeddings(
-    model="text-embedding-004", google_api_key=GOOGLE_API_KEY
+    model="models/text-embedding-004",
+    google_api_key=GOOGLE_API_KEY,
+    task_type="semantic_similarity",
 )
 
 
@@ -51,6 +62,7 @@ def parse_query(query, llm):
     - If the query does not mention a grouping criterion. map it to 'default'.
 
     Respond only in JSON format with fields `filter` and `group_by`. 
+    While using city and country, use hq_city and hq_country as their column names.
     Example format:
     {{
     "filter": {{"name": "example", "country": "example_country"}},
@@ -88,14 +100,24 @@ def fetch_data(filter_criteria, corp_data):
                         add_theme = True
                         break
             else:
-                if corp.get(key).lower().find(value.lower()) == -1:
+                corp_value = str(corp.get(key, "")).lower()
+                if corp_value.find(value.lower()) == -1:
                     add_other = False
-        if add_other and add_theme:
-            filtered_corps.append(corp)
+        if "themes" in filter_criteria.keys():
+            if add_other and add_theme:
+                filtered_corps.append(corp)
+        else:
+            if add_other:
+                filtered_corps.append(corp)
     return filtered_corps
 
 
-def cluster(corps, group_by):
+def get_embedding(text, embedding):
+    query_embeddings = embedding.embed_query(text)
+    return query_embeddings
+
+
+def cluster(corps, group_by, n_clusters=5):
     if group_by == "themes":
         text_data = [
             " ".join(
@@ -131,27 +153,68 @@ def cluster(corps, group_by):
             for corporate in corps
         ]
 
-    text_data_processed = []
+    embeddings = [get_embedding(text, EMBEDDING)[50:] for text in text_data]
+    X = np.array(embeddings)
 
-    for data in text_data:
-        text_data_processed.append(data.lower().split())
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    clusters = kmeans.fit_predict(X)
 
-    return text_data_processed
+    return clusters, X
 
 
-criteria = parse_query("Get the companies in health and finance", LLM)
+def quality_assurance(clusters, embeddings):
 
+    # The silhouette score measures how similar a data point is to its own cluster (cohesion) compared to other clusters (separation).
+    # It ranges from -1 to 1, where:
+    # +1 indicates that the sample is far away from neighboring clusters and appropriately clustered.
+    # 0 indicates that the sample is on or very close to the decision boundary between two neighboring clusters.
+    # -1 indicates that the sample might be placed in the wrong cluster.
+    silhouette_avg = silhouette_score(embeddings, clusters)
+
+    # The Calinski-Harabasz score (also known as the Variance Ratio Criterion) measures the ratio of
+    # the sum of between-cluster dispersion (variance) to within-cluster dispersion.
+    # A higher score indicates better-defined clusters.
+    calinski_harabasz = calinski_harabasz_score(embeddings, clusters)
+
+    # The Davies-Bouldin score is a measure of cluster quality that evaluates the ratio of
+    # within-cluster distances to between-cluster distances.
+    # A lower score indicates better clustering.
+    davies_bouldin = davies_bouldin_score(embeddings, clusters)
+
+    silhouette_threshold = 0.5
+    calinski_threshold = 500
+    davies_bouldin_threshold = 1.5
+
+    qa_pass = True
+    qa_reason = []
+
+    if silhouette_avg < silhouette_threshold:
+        qa_pass = False
+        qa_reason.append(f"Low silhouette score: {silhouette_avg}")
+
+    if calinski_harabasz < calinski_threshold:
+        qa_pass = False
+        qa_reason.append(f"Low Calinski-Harabasz score: {calinski_harabasz}")
+
+    if davies_bouldin > davies_bouldin_threshold:
+        qa_pass = False
+        qa_reason.append(f"High Davies-Bouldin score: {davies_bouldin}")
+
+    return qa_pass, qa_reason
+
+
+criteria = parse_query("Get the companies in France", LLM)
 print(criteria)
-"""
 filter_criteria = criteria["filter"]
 group_criteria = criteria["group_by"]
-print(filter_criteria)
 corps = fetch_data(filter_criteria, CORP_DATA["corps"])
 
 with open("filtered_corps.json", "w") as f:
     f.write(json.dumps(corps, indent=2))
-print(cluster(corps, group_criteria))
 
 
-vector = EMBEDDING.embed_query("hello, world")
-"""
+clusters, embeddings = cluster(corps, group_criteria)
+
+qa_pass, qa_reason = quality_assurance(clusters, embeddings)
+
+print(qa_pass, qa_reason)
