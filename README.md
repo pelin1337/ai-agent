@@ -102,5 +102,15 @@ The batch_id can be used to track the process via `/status/{batch_id}` endpoint.
 
 ## Phase 5 - AI Agent
 
-### Data Preprocessing 
+### Preprocessing
+
+After gathering all the files together, let's precompute each embedding. This will be faster, and cost efficient. There can be different ways depending on need and user experience, but I chose the following to _define_ a company:
+
+```
+- name
+- description
+- city 
+- country 
+- themes
+```
 
