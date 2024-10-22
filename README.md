@@ -95,15 +95,19 @@ Simple `docker-compose build` will create the instances. `docker-compose up` wil
 }
 ```
 
-The batch*id can be used to track the process via `/status/{batch_id}` endpoint. For each page, the process will create corp*{page}.json files, which hold the corporate data. This data is retrieved under agent/data for further use.
+The `batch_id` can be used to track the process via `/status/{batch_id}` endpoint. For each page, the process will create corp\*{page}.json files, which hold the corporate data. This data is retrieved under agent/data for further use.
+
+### Asyncio Alternative Solution
+
+The solution can be found under the folder `asyncio_alternative`. Can simply run with `python main.py`. Working with asyncio is simple, you can define the async workflows yourself + saves from Celery overhead. It took 4-5 seconds including file write.
 
 ## Phase 5 - LangGraph AI Agent
 
 ### Preprocessing
 
-Gathering of the files and modifications to data structure can be found in `preprocessing.py`
+Gathering of the files and modifications to data structure can be found in `preprocessing.py`.
 
-### User queries
+### User Queries
 
 I've used Gemini 1.5 Flash model to process user queries. Queries are processed in such a way that:
 
@@ -127,7 +131,7 @@ default
 
 where default grouping includes all of the filtering list mentioned above.
 
-### Data fetcher node
+### Data Fetcher Node
 
 After extracting selection filters from user query, data fetcher node scans all the data and updates graph state. where graph state is:
 
@@ -136,11 +140,12 @@ class State(TypedDict):
     query: str
     parsed_query: dict
     filtered_corps: List[Dict]
-    clustered_corps: List[Dict]
-    qa_result: str
+    clusters: np.ndarray
+    embeddings: np.ndarray
+    qa_result: Dict
 ```
 
-### Clustering node
+### Clustering Node
 
 While clustering the companies based on their text data only, a method that understands the semantic meaning of the words will be better. Our dataset is very small, so using a method like TF-IDF would not be the best approach.
 
@@ -155,3 +160,64 @@ if theme[0] != "Other"
 We need to include word embedding for semantics. Instead of using a gensim model, I used google's text-embedding-004 model to get word embeddings, then performed clustering using KMeans method.
 
 ### Quality Assurance Node
+
+To assure the quality of clusters, we can use well-known metrics to calculate how well they are structured. The metrics I've used (from `sci-kit learn`):
+
+#### Silhouette Score
+
+The silhouette score measures how similar a data point is to its own cluster (cohesion) compared to other clusters (separation).It ranges from -1 to 1, where:
+
+- +1 indicates that the sample is far away from neighboring clusters and appropriately clustered.
+- 0 indicates that the sample is on or very close to the decision boundary between two neighboring clusters.
+- -1 indicates that the sample might be placed in the wrong cluster.
+
+#### Calinski-Harabasz Score
+
+The Calinski-Harabasz score (also known as the Variance Ratio Criterion) measures the ratio of the sum of between-cluster dispersion (variance) to within-cluster dispersion. A higher score indicates better-defined clusters.
+
+#### Davies-Bouldin Score
+
+The Davies-Bouldin score is a measure of cluster quality that evaluates the ratio of within-cluster distances to between-cluster distances. A lower score indicates better clustering.
+
+### Example Query, Output and Improvements
+
+The necessary code is in the file `agent.py`. `grouping_test.py` and `query_test.py` are some files I used while trying out function implementations (didn't delete them for myself.)
+
+`python agent.py` will start the interactive client.
+
+User query:
+
+```
+"Get the companies in AI and group them by their location"
+```
+
+Parsed query:
+
+```json
+{ "filter": { "themes": ["Artificial Intelligence"] }, "group_by": "geography" }
+```
+
+Dividing into clusters, each cluster counted based on country:
+
+```json
+[{'United States': 14, 'Portugal': 2, 'United Kingdom': 2, 'Italy': 1}
+
+{'Germany': 21, 'Switzerland': 5, 'Austria': 2, 'Sweden': 1},
+
+{'France': 12, 'Denmark': 1, 'South Korea': 2},
+
+{'United Kingdom': 8, 'Italy': 1, 'Singapore': 1, 'United States': 20, 'China': 1, 'Japan': 1, 'Ireland': 1},
+
+{'Netherlands': 5, 'Germany': 3, 'Japan': 1}]
+```
+
+Our approach so far groups same countries not-so-bad. 21 corporates from Germany being in the same group while only 3 companies being on other groups is promising. Also, Switzerland, Austria, and Sweden are in this group as well, which are closer countries to Germany.
+
+Some possible improvement points:
+
+- Trying out different clustering algorithms, observing their scores
+- Deciding on cluster size dynamically
+- Deciding which score ratings are 'OK' for the data we have, and on which scores QA should alert a warning
+- Possible QA from LLM implementation
+- Saving embeddings in a file
+- Implement better error handling and logging overall

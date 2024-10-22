@@ -3,7 +3,8 @@ import json
 from dotenv import load_dotenv
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN
+from sklearn.neighbors import NearestNeighbors
 import numpy as np
 from scipy.spatial.distance import cosine
 from sklearn.metrics import (
@@ -11,6 +12,7 @@ from sklearn.metrics import (
     calinski_harabasz_score,
     davies_bouldin_score,
 )
+import matplotlib.pyplot as plt
 
 load_dotenv()
 
@@ -112,12 +114,31 @@ def fetch_data(filter_criteria, corp_data):
     return filtered_corps
 
 
+def find_optimal_eps(X, n_neighbors=5):
+    """Plot k-distance graph to help find optimal eps value"""
+    neigh = NearestNeighbors(n_neighbors=n_neighbors)
+    nbrs = neigh.fit(X)
+    distances, _ = nbrs.kneighbors(X)
+
+    # Sort distances in decreasing order
+    distances = np.sort(distances[:, -1])
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(len(distances)), distances)
+    plt.xlabel("Points")
+    plt.ylabel(f"Distance to {n_neighbors}th nearest neighbor")
+    plt.title("K-distance Graph")
+    plt.show()
+
+    return distances
+
+
 def get_embedding(text, embedding):
     query_embeddings = embedding.embed_query(text)
     return query_embeddings
 
 
-def cluster(corps, group_by, n_clusters=5):
+def get_text_data(corps, group_by):
     if group_by == "themes":
         text_data = [
             " ".join(
@@ -130,10 +151,14 @@ def cluster(corps, group_by, n_clusters=5):
             for corporate in corps
         ]
     elif group_by == "geography":
+        """
         text_data = [
-            " ".join([corporate.get("hq_city"), corporate.get("hq_country")])
+            " ".join([corporate["hq_city"], corporate["hq_country"]])
             for corporate in corps
         ]
+        """
+
+        text_data = [corporate["hq_city"] for corporate in corps]
 
     else:
         text_data = [
@@ -153,6 +178,12 @@ def cluster(corps, group_by, n_clusters=5):
             for corporate in corps
         ]
 
+    return text_data
+
+
+def cluster_kmeans(corps, group_by, n_clusters=5):
+
+    text_data = get_text_data(corps, group_by)
     embeddings = [get_embedding(text, EMBEDDING)[50:] for text in text_data]
     X = np.array(embeddings)
 
@@ -160,6 +191,18 @@ def cluster(corps, group_by, n_clusters=5):
     clusters = kmeans.fit_predict(X)
 
     return clusters, X
+
+
+def cluster_dbscan(corps, group_by):
+    text_data = get_text_data(corps, group_by)
+    embeddings = [get_embedding(text, EMBEDDING)[50:] for text in text_data]
+    X = np.array(embeddings)
+    distances = find_optimal_eps(X)
+    eps = np.percentile(distances, 90)
+    clustering = DBSCAN(eps=eps, min_samples=5).fit(X)
+    labels = clustering.labels_
+
+    return labels
 
 
 def quality_assurance(clusters, embeddings):
@@ -203,7 +246,7 @@ def quality_assurance(clusters, embeddings):
     return qa_pass, qa_reason
 
 
-criteria = parse_query("Get the companies in France", LLM)
+criteria = parse_query("Get the companies in AI and group them by their location", LLM)
 print(criteria)
 filter_criteria = criteria["filter"]
 group_criteria = criteria["group_by"]
@@ -213,8 +256,9 @@ with open("filtered_corps.json", "w") as f:
     f.write(json.dumps(corps, indent=2))
 
 
-clusters, embeddings = cluster(corps, group_criteria)
+labels = cluster_dbscan(corps, group_criteria)
 
-qa_pass, qa_reason = quality_assurance(clusters, embeddings)
+print(labels)
+# qa_pass, qa_reason = quality_assurance(clusters, embeddings)
 
-print(qa_pass, qa_reason)
+# print(qa_pass, qa_reason)

@@ -10,6 +10,11 @@ from sklearn.metrics import (
     davies_bouldin_score,
 )
 from dotenv import load_dotenv
+from langgraph.graph import StateGraph, START, END
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 load_dotenv()
 
@@ -18,24 +23,30 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 LLM = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=GOOGLE_API_KEY)
 
 EMBEDDING = GoogleGenerativeAIEmbeddings(
-    model="text-embedding-004", google_api_key=GOOGLE_API_KEY
+    model="models/text-embedding-004",
+    google_api_key=GOOGLE_API_KEY,
+    task_type="semantic_similarity",
 )
 
-
-with open("corp_data.json", "r") as f:
-    CORP_DATA = json.load(f)
+try:
+    with open("corp_data.json", "r") as f:
+        CORP_DATA = json.load(f)
+except FileNotFoundError:
+    logger.error("corp_data.json not found.")
+    raise
 
 
 class State(TypedDict):
     query: str
     parsed_query: dict
     filtered_corps: List[Dict]
-    cluster_list: np.ndarray
+    clusters: np.ndarray
     embeddings: np.ndarray
-    qa_result: str
+    qa_result: Dict
+    error: str | None
 
 
-def parse_query(state: State, llm) -> State:
+def parse_query(state: State, llm=LLM) -> State:
     query = state["query"]
     content = f"""
     Please extract filtering and grouping criteria from the following query. 
@@ -72,6 +83,7 @@ def parse_query(state: State, llm) -> State:
 
     Respond only in JSON format with fields `filter` and `group_by`. 
     While using city and country, use hq_city and hq_country as their column names.
+    Always return themes as a list, even if there is one theme.
     Example format:
     {{
     "filter": {{"name": "example", "country": "example_country"}},
@@ -93,12 +105,12 @@ def parse_query(state: State, llm) -> State:
     }
 
     parsed_query = {k: v for k, v in parsed_query.items() if v is not None}
-
     return {"parsed_query": parsed_query, **state}
 
 
-def fetch_data(state: State, corp_data: List[Dict]) -> State:
+def fetch_data(state: State, corp_data=CORP_DATA["corps"]) -> State:
     filter_criteria = state["parsed_query"]["filter"]
+    print(filter_criteria)
     filtered_corps = []
     for corp in corp_data:
         add_other = True
@@ -119,10 +131,15 @@ def fetch_data(state: State, corp_data: List[Dict]) -> State:
         else:
             if add_other:
                 filtered_corps.append(corp)
-    return filtered_corps
+
+    if not filtered_corps:
+        logger.warning("No companies matcher the filter criteria")
+        return {"error": "No matching companies found", **state}
+    print(filtered_corps)
+    return {"filtered_corps": filtered_corps, **state}
 
 
-def cluster(state: State, embedding, n_clusters=2) -> State:
+def cluster(state: State, embedding=EMBEDDING, n_clusters=2) -> State:
     corps = state["filtered_corps"]
     group_by = state["parsed_query"]["group_by"]
 
@@ -172,9 +189,88 @@ def cluster(state: State, embedding, n_clusters=2) -> State:
     kmeans = KMeans(n_clusters=n_clusters, random_state=42)
     clusters = kmeans.fit_predict(X)
 
-    return {"cluster_list": clusters, "embeddings": X, **state}
+    return {"clusters": clusters, "embeddings": X, **state}
 
 
 def quality_assurance(state: State) -> State:
-    corps = state["filtered_corps"]
-    cluster_list = state["cluster_list"]
+    embeddings = state["embeddings"]
+    clusters = state["clusters"]
+    silhouette_avg = silhouette_score(embeddings, clusters)
+    calinski_harabasz = calinski_harabasz_score(embeddings, clusters)
+    davies_bouldin = davies_bouldin_score(embeddings, clusters)
+
+    results = {}
+    results["silhouette"] = silhouette_avg
+    results["calinski-harabasz"] = calinski_harabasz
+    results["davies-bouldin"] = davies_bouldin
+
+    return {"qa_result": results, **state}
+
+
+def create_graph() -> StateGraph:
+    graph = StateGraph(State)
+
+    graph.add_node("parse_query", parse_query)
+    graph.add_node("fetch_data", fetch_data)
+    graph.add_node("cluster", cluster)
+    graph.add_node("quality_assurance", quality_assurance)
+
+    graph.add_edge(START, "parse_query")
+    graph.add_edge("parse_query", "fetch_data")
+    graph.add_edge("fetch_data", "cluster")
+    graph.add_edge("cluster", "quality_assurance")
+    graph.add_edge("quality_assurance", END)
+
+    return graph.compile()
+
+
+def run_workflow(query: str) -> Dict:
+    try:
+        graph = create_graph()
+        initial_state = {"query": query, "error": None}
+        result = graph.invoke(initial_state)
+
+        if result.get("error"):
+            logger.error(f"Workflow failed: {result["error"]}")
+            return {"status": "error", "message": result["error"]}
+
+        return {
+            "status": "success",
+            "filtered_companies": len(result["filtered_corps"]),
+            "clusters": len(np.unique(result["clusters"])),
+            "quality_metrics": result["qa_result"],
+        }
+
+    except Exception as e:
+        logger.error(f"Workflow execution failed: {str(e)}")
+        return {"status": "error", "message": str(e)}
+
+
+def interactive_mode():
+    print("Corporate Analysis System")
+    print("Enter your queries or 'quit' to exit")
+    print("\nExample queries:")
+    print("- Find AI companies in Germany")
+    print("- Show companies in Berlin clustered by themes")
+    print("- Find machine learning startups and cluster by geography")
+
+    while True:
+        try:
+            query = input("\nEnter query: ").strip()
+            if query.lower() == "quit":
+                break
+
+            if not query:
+                print("Please enter a valid query")
+                continue
+
+            result = run_workflow(query)
+            print("\nResults:")
+            print(json.dumps(result, indent=2))
+
+        except Exception as e:
+            print(f"Error: {str(e)}")
+
+
+if __name__ == "__main__":
+    interactive_mode()

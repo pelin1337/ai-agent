@@ -1,0 +1,130 @@
+import numpy as np
+import json
+
+clustering = [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    0,
+    -1,
+    -1,
+    0,
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    0,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    0,
+    -1,
+    1,
+    -1,
+    1,
+    -1,
+    -1,
+    1,
+    0,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+]
+
+
+with open("filtered_corps.json") as f:
+    corp_data = json.load(f)
+
+
+groups = {}
+
+for i, val in enumerate(clustering):
+    if val in groups:
+        groups[val]["count"] += 1
+        groups[val]["country"].append(corp_data[i]["hq_country"])
+
+    else:
+        groups[val] = {}
+        groups[val]["count"] = 1
+        groups[val]["country"] = []
+        groups[val]["country"].append(corp_data[i]["hq_country"])
+
+print(groups)
